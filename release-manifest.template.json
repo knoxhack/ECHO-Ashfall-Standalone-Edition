@@ -6,6 +6,12 @@
   "moduleArtifactFamily": "standalone",
   "moduleArtifactPattern": "<module>-<version>-standalone.jar",
   "moduleSourcePattern": "<module>-<version>-sources.jar",
+  "moduleRequirements": [
+    {
+      "id": "example-module",
+      "version": "0.1.0"
+    }
+  ],
   "requiredModuleDescriptors": [
     "META-INF/echo.mod.json"
   ],
