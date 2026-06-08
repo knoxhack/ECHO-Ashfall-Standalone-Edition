@@ -1,0 +1,16 @@
+{
+  "packId": "ashfall-standalone-edition",
+  "displayName": "Ashfall Standalone Edition",
+  "sourceRepo": "knoxhack/ECHO-Ashfall-Standalone-Edition",
+  "launcherFeed": "github-releases",
+  "moduleArtifactFamily": "standalone",
+  "moduleArtifactPattern": "<module>-<version>-standalone.jar",
+  "moduleSourcePattern": "<module>-<version>-sources.jar",
+  "requiredModuleDescriptors": [
+    "META-INF/echo.mod.json"
+  ],
+  "optionalPackageDescriptors": [
+    "echo-addon-package.json"
+  ],
+  "artifacts": []
+}
