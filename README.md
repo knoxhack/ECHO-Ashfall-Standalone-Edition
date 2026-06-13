@@ -36,6 +36,8 @@ The current experimental prerelease payload is tracked under `release-assets/v0.
 - `ashfall-standalone-edition-experimental-0.1.0.pack.json`, `echo-release.json`, and `checksums.txt` are checked in beside it.
 - `release-audit.json` records the downloaded GitHub release asset hashes.
 
+Current `v0.1.0-ashfall-standalone-edition` assets are warning-gated in the Release Index because the published `.pack.json` snapshot does not declare `moduleRequirements`. Rebuild the pack manifest from `release-manifest.template.json` and upload a fresh checksum-backed asset set before requesting launcher approval.
+
 ## Docs Index
 
 - [docs/install.md](docs/install.md)
