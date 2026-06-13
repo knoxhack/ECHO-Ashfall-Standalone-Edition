@@ -8,8 +8,34 @@
   "moduleSourcePattern": "<module>-<version>-sources.jar",
   "moduleRequirements": [
     {
-      "id": "example-module",
-      "version": "0.1.0"
+      "id": "echocore",
+      "version": "1.0.0",
+      "required": true
+    },
+    {
+      "id": "echoplatformcore",
+      "version": "1.0.0",
+      "required": true
+    },
+    {
+      "id": "echoadaptercore",
+      "version": "1.0.0",
+      "required": true
+    },
+    {
+      "id": "echonetcore",
+      "version": "1.0.0",
+      "required": true
+    },
+    {
+      "id": "echoblockworks",
+      "version": "1.0.0",
+      "required": true
+    },
+    {
+      "id": "echoashfallprotocol",
+      "version": "1.0.0",
+      "required": true
     }
   ],
   "requiredModuleDescriptors": [
@@ -18,5 +44,42 @@
   "optionalPackageDescriptors": [
     "echo-addon-package.json"
   ],
-  "artifacts": []
+  "artifacts": [
+    {
+      "id": "pack-archive",
+      "file": "release-assets/v0.1.0-ashfall-standalone-edition/ashfall-standalone-edition-0.1.0.zip",
+      "size": 236842685,
+      "sha256": "c64b7173a4bb3328e81cf451a4f1d550934bf7bfafb22bee4c0eb4495765edb6",
+      "sourceReleaseTag": "v0.1.0-ashfall-standalone-edition",
+      "sourceReleaseUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/tag/v0.1.0-ashfall-standalone-edition",
+      "lfs": true
+    },
+    {
+      "id": "pack-manifest",
+      "file": "release-assets/v0.1.0-ashfall-standalone-edition/ashfall-standalone-edition-experimental-0.1.0.pack.json",
+      "size": 96861,
+      "sha256": "c7f99cf47846c374d71551231424cc4de78921fb03f0148382901ef30b07f5c2",
+      "sourceReleaseTag": "v0.1.0-ashfall-standalone-edition",
+      "sourceReleaseUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/tag/v0.1.0-ashfall-standalone-edition",
+      "lfs": false
+    },
+    {
+      "id": "checksums",
+      "file": "release-assets/v0.1.0-ashfall-standalone-edition/checksums.txt",
+      "size": 5049,
+      "sha256": "5031e4b9055fb2a2baf173209bdd52da749be472a2b12a7fe2dd247de6ce8f87",
+      "sourceReleaseTag": "v0.1.0-ashfall-standalone-edition",
+      "sourceReleaseUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/tag/v0.1.0-ashfall-standalone-edition",
+      "lfs": false
+    },
+    {
+      "id": "echo-release",
+      "file": "release-assets/v0.1.0-ashfall-standalone-edition/echo-release.json",
+      "size": 37819,
+      "sha256": "1114204b6fa587d86c947d573a3221c315c16c7681a9e9caefd0ab4061d18eb1",
+      "sourceReleaseTag": "v0.1.0-ashfall-standalone-edition",
+      "sourceReleaseUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/tag/v0.1.0-ashfall-standalone-edition",
+      "lfs": false
+    }
+  ]
 }

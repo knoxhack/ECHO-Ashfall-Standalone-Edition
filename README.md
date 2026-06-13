@@ -28,6 +28,14 @@ Run commands from the repository root.
 
 Standalone runtime pack manifests, pack archives, runtime shell assets, and per-file pack assets belong here. Shared module jars stay in `ECHO-Modules`.
 
+## Release Assets
+
+The current experimental prerelease payload is tracked under `release-assets/v0.1.0-ashfall-standalone-edition/`.
+
+- `ashfall-standalone-edition-0.1.0.zip` is stored with Git LFS.
+- `ashfall-standalone-edition-experimental-0.1.0.pack.json`, `echo-release.json`, and `checksums.txt` are checked in beside it.
+- `release-audit.json` records the downloaded GitHub release asset hashes.
+
 ## Docs Index
 
 - [docs/install.md](docs/install.md)
