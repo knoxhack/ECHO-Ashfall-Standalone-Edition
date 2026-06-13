@@ -6,7 +6,7 @@
   "channel": "experimental",
   "releasedAt": "2026-06-09T15:37:26.822Z",
   "manifestAsset": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
-  "manifestSha256": "c7f99cf47846c374d71551231424cc4de78921fb03f0148382901ef30b07f5c2",
+  "manifestSha256": "d03d3f55c2a051ca25a44d574ad99db3fe1adacc47dc1762809b5281464b4056",
   "artifactMode": "zip",
   "artifactAsset": "ashfall-standalone-edition-0.1.0.zip",
   "artifactSha256": "c64b7173a4bb3328e81cf451a4f1d550934bf7bfafb22bee4c0eb4495765edb6",
@@ -29,8 +29,8 @@
     {
       "name": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "c7f99cf47846c374d71551231424cc4de78921fb03f0148382901ef30b07f5c2",
-      "size": 96861
+      "sha256": "d03d3f55c2a051ca25a44d574ad99db3fe1adacc47dc1762809b5281464b4056",
+      "size": 79319
     },
     {
       "name": "ashfall-standalone-edition-0.1.0.zip",
