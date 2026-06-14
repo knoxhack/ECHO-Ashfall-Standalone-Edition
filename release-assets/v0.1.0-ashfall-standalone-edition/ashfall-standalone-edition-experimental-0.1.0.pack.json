@@ -6,8 +6,8 @@
   "minecraft": "Standalone",
   "artifactMode": "zip",
   "artifactName": "ashfall-standalone-edition-0.1.0.zip",
-  "artifactSha256": "dccffdcd5708494591077499a923aedf8b1000da26d5314444441dc029fe1b94",
-  "artifactSize": 271016395,
+  "artifactSha256": "a278199b7556d0cd319eb8cb497d996c7f9bbc160d607e17c6df7732392fa04e",
+  "artifactSize": 267325007,
   "loader": "echo-standalone-runtime",
   "runtime": {
     "requiredJava": "25+"

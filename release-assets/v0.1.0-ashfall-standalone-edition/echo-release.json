@@ -6,12 +6,12 @@
   "channel": "experimental",
   "releasedAt": "2026-06-14T01:26:50.366Z",
   "manifestAsset": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
-  "manifestSha256": "64891882e066bbf11ebf30fd909d126cb793fdb12f54ae38fc7c7ac1dbda5884",
+  "manifestSha256": "5feff16a755ed76f095e2695b1f49f97fe3aea444cd92ece0268101da27c91e4",
   "manifestSize": 56642,
   "artifactMode": "zip",
   "artifactAsset": "ashfall-standalone-edition-0.1.0.zip",
-  "artifactSha256": "b5bfd2f45121fdc69131eccb75ae13969fcbbef0dba3dc00f687d60f9b600344",
-  "artifactSize": 267352444,
+  "artifactSha256": "a278199b7556d0cd319eb8cb497d996c7f9bbc160d607e17c6df7732392fa04e",
+  "artifactSize": 267325007,
   "moduleRelease": "modules-all-official-modpacks-runtime-fix-20260614",
   "packs": [
     {
@@ -27,14 +27,14 @@
     {
       "name": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "64891882e066bbf11ebf30fd909d126cb793fdb12f54ae38fc7c7ac1dbda5884",
+      "sha256": "5feff16a755ed76f095e2695b1f49f97fe3aea444cd92ece0268101da27c91e4",
       "size": 56642
     },
     {
       "name": "ashfall-standalone-edition-0.1.0.zip",
       "role": "pack-artifact",
-      "sha256": "b5bfd2f45121fdc69131eccb75ae13969fcbbef0dba3dc00f687d60f9b600344",
-      "size": 267352444
+      "sha256": "a278199b7556d0cd319eb8cb497d996c7f9bbc160d607e17c6df7732392fa04e",
+      "size": 267325007
     },
     {
       "name": "echoadaptercore-1.0.0-standalone.jar",
