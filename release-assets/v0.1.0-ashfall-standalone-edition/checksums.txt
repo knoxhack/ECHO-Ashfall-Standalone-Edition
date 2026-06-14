@@ -1,3 +1,3 @@
-77e71bebe91d02098fd76f12fd8b406f502db292cb285da6fd00333c6f1d4f8f  echo-release.json
+e717ad914237386f834f435d5521538e58c777687d51786daa27a8491504a2d0  echo-release.json
 a278199b7556d0cd319eb8cb497d996c7f9bbc160d607e17c6df7732392fa04e  ashfall-standalone-edition-0.1.0.zip
 5feff16a755ed76f095e2695b1f49f97fe3aea444cd92ece0268101da27c91e4  ashfall-standalone-edition-experimental-0.1.0.pack.json
