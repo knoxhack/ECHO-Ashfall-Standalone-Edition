@@ -3,1414 +3,12 @@
   "name": "Ashfall Standalone Edition",
   "version": "0.1.0",
   "channel": "experimental",
-  "minecraft": "26.1.2",
-  "minecraftVersion": "26.1.2",
+  "minecraft": "standalone",
   "artifactMode": "zip",
   "artifactName": "ashfall-standalone-edition-0.1.0.zip",
-  "artifactSha256": "c64b7173a4bb3328e81cf451a4f1d550934bf7bfafb22bee4c0eb4495765edb6",
-  "artifactSize": 236842685,
-  "loader": {
-    "type": "neoforge",
-    "version": "26.1.2.43-beta",
-    "minecraftLauncherVersionId": "neoforge-26.1.2.43-beta",
-    "versionJson": {
-      "assetIndex": null,
-      "id": "neoforge-26.1.2.43-beta",
-      "time": "2026-05-07T14:41:36.7584663",
-      "releaseTime": "2026-05-07T14:41:36.7584663",
-      "type": "release",
-      "minecraftArguments": null,
-      "minimumLauncherVersion": 0,
-      "assets": null,
-      "inheritsFrom": "26.1.2",
-      "jar": null,
-      "logging": null,
-      "libraries": [
-        {
-          "name": "net.neoforged.fancymodloader:earlydisplay:11.0.13",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/neoforged/fancymodloader/earlydisplay/11.0.13/earlydisplay-11.0.13.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/neoforged/fancymodloader/earlydisplay/11.0.13/earlydisplay-11.0.13.jar",
-              "sha1": "491a1bedecb33802fa118cae384b60f91f6f0241",
-              "size": 360749
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.neoforged.fancymodloader:loader:11.0.13",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/neoforged/fancymodloader/loader/11.0.13/loader-11.0.13.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/neoforged/fancymodloader/loader/11.0.13/loader-11.0.13.jar",
-              "sha1": "c9c89eaf35535990110088224d188748d81eaecf",
-              "size": 663959
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.neoforged:accesstransformers:11.0.2",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar",
-              "sha1": "25dcb69c78b16669935f0ab91dff830ce192379d",
-              "size": 20292
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm-commons:9.9.1",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar",
-              "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar",
-              "sha1": "ab35de4c537184a09339069f1a3b3aacf2289149",
-              "size": 75010
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.neoforged:mergetool:2.0.7:api",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/neoforged/mergetool/2.0.7/mergetool-2.0.7-api.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/neoforged/mergetool/2.0.7/mergetool-2.0.7-api.jar",
-              "sha1": "793b18456e92c4a7f66d9b5d8bf7a9c1c7a20b20",
-              "size": 2550
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm-util:9.9.1",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar",
-              "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar",
-              "sha1": "e51f5b0ae0b0c1960687ae970a2a3434d39d8abb",
-              "size": 94643
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm-analysis:9.9.1",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar",
-              "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar",
-              "sha1": "1ab8d9316ef7a67240087919a708246c37ed1660",
-              "size": 35170
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm-tree:9.9.1",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar",
-              "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar",
-              "sha1": "b6b1b3366296163b4b1f540731aad0a2baa484d8",
-              "size": 51963
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.neoforged:bus:8.0.5",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/neoforged/bus/8.0.5/bus-8.0.5.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar",
-              "sha1": "5b2d33285ab5d1554e9798ad98c40d6ea3868bd5",
-              "size": 30340
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm:9.9.1",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "org/ow2/asm/asm/9.9.1/asm-9.9.1.jar",
-              "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar",
-              "sha1": "2ceea6ab43bcae1979b2a6d85fc0ca429877e5ab",
-              "size": 126252
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "com.electronwill.night-config:toml:3.8.3",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar",
-              "url": "https://neoforged.forgecdn.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar",
-              "sha1": "90b2fd6efcb4a7d5b9810cf78f9d824994d717f2",
-              "size": 39516
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "com.electronwill.night-config:core:3.8.3",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "com/electronwill/night-config/core/3.8.3/core-3.8.3.jar",
-              "url": "https://neoforged.forgecdn.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar",
-              "sha1": "b442a95f09e349927f5a945ecb594455870fcf4f",
-              "size": 382911
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.neoforged:JarJarSelector:0.5.0",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/neoforged/JarJarSelector/0.5.0/JarJarSelector-0.5.0.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/neoforged/JarJarSelector/0.5.0/JarJarSelector-0.5.0.jar",
-              "sha1": "64e4956b8dcdd6537eba96590f12fa1f3ba2f831",
-              "size": 17083
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.neoforged:JarJarMetadata:0.5.0",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/neoforged/JarJarMetadata/0.5.0/JarJarMetadata-0.5.0.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/neoforged/JarJarMetadata/0.5.0/JarJarMetadata-0.5.0.jar",
-              "sha1": "6f03d0ac17102c33cb7384e42a2e22eda2a3ad8c",
-              "size": 15648
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "org.apache.maven:maven-artifact:3.9.9",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
-              "url": "https://neoforged.forgecdn.net/releases/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
-              "sha1": "a130ec431ef32e12a4424f9b074735bb58e15d2d",
-              "size": 58819
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.jodah:typetools:0.6.3",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
-              "sha1": "a01aaa6ddaea9ec07ec4f209487b7a46a526283a",
-              "size": 18281
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.minecrell:terminalconsoleappender:1.3.0",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar",
-              "sha1": "b562e9bb61235c9520e26282cdee71f8f802d1fc",
-              "size": 16949
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar",
-              "sha1": "41c4a3984a80f4679e759fb9f495587acc5cdac7",
-              "size": 1540060
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.neoforged.accesstransformers:at-parser:11.0.2",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar",
-              "sha1": "64aae57d6d26d69543c5275181fe6971707a4e16",
-              "size": 19331
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "org.jline:jline-reader:3.20.0",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
-              "url": "https://neoforged.forgecdn.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
-              "sha1": "8f15415b022a25b473e8e16c28ae913186ffb9c4",
-              "size": 171052
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "org.jline:jline-terminal:3.20.0",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
-              "url": "https://neoforged.forgecdn.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
-              "sha1": "d0ddcc708ddf527a3454c941b7b9225cc83a15ff",
-              "size": 228481
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "net.neoforged:srgutils:1.0.10",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "net/neoforged/srgutils/1.0.10/srgutils-1.0.10.jar",
-              "url": "https://neoforged.forgecdn.net/releases/net/neoforged/srgutils/1.0.10/srgutils-1.0.10.jar",
-              "sha1": "abb471237b33b19f040ada00bfbad1ec45b949b6",
-              "size": 72018
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-              "url": "https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-              "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
-              "size": 2199
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "com.google.errorprone:error_prone_annotations:2.41.0",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar",
-              "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar",
-              "sha1": "4381275efdef6ddfae38f002c31e84cd001c97f0",
-              "size": 20389
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "com.google.j2objc:j2objc-annotations:3.1",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar",
-              "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar",
-              "sha1": "a892ca9507839bbdb900d64310ac98256cab992f",
-              "size": 16762
-            },
-            "classifiers": null
-          }
-        },
-        {
-          "name": "org.codehaus.plexus:plexus-utils:3.5.1",
-          "url": null,
-          "serverreq": null,
-          "clientreq": null,
-          "natives": null,
-          "extract": null,
-          "rules": null,
-          "downloads": {
-            "artifact": {
-              "path": "org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
-              "url": "https://neoforged.forgecdn.net/releases/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
-              "sha1": "c6bfb17c97ecc8863e88778ea301be742c62b06d",
-              "size": 269335
-            },
-            "classifiers": null
-          }
-        }
-      ],
-      "mainClass": "net.neoforged.fml.startup.Client",
-      "arguments": {
-        "game": [
-          "--fml.neoForgeVersion",
-          "26.1.2.43-beta",
-          "--fml.mcVersion",
-          "26.1.2",
-          "--fml.neoFormVersion",
-          "1"
-        ],
-        "jvm": [
-          "-Djava.net.preferIPv6Addresses=system",
-          "-DlibraryDirectory=${library_directory}",
-          "--add-opens",
-          "java.base/java.lang.invoke=ALL-UNNAMED",
-          "--add-exports",
-          "jdk.naming.dns/com.sun.jndi.dns=java.naming"
-        ]
-      }
-    },
-    "installProfileJson": {
-      "spec": 1,
-      "profile": "NeoForge",
-      "version": "neoforge-26.1.2.43-beta",
-      "minecraft": "26.1.2",
-      "json": "/version.json",
-      "logo": "/big_logo.png",
-      "welcome": "Welcome to the simple NeoForge installer",
-      "path": "net.neoforged:neoforge:26.1.2.43-beta",
-      "data": {
-        "BINPATCH": {
-          "client": "/data/client.lzma",
-          "server": "/data/client.lzma"
-        },
-        "PATCHED": {
-          "client": "[net.neoforged:minecraft-client-patched:26.1.2.43-beta]",
-          "server": "[net.neoforged:minecraft-server-patched:26.1.2.43-beta]"
-        },
-        "MCP_VERSION": {
-          "client": "'26.1.2-1'",
-          "server": "'26.1.2-1'"
-        },
-        "SIDE": {
-          "client": "client",
-          "server": "server"
-        }
-      },
-      "processors": [
-        {
-          "jar": "net.neoforged.installertools:installertools:4.0.12:fatjar",
-          "classpath": [
-            "net.neoforged.installertools:installertools:4.0.12:fatjar"
-          ],
-          "args": [
-            "--task",
-            "PROCESS_MINECRAFT_JAR",
-            "--no-mod-manifest",
-            "--input",
-            "{MINECRAFT_JAR}",
-            "--output",
-            "{PATCHED}",
-            "--extract-libraries-to",
-            "{ROOT}/libraries/",
-            "--apply-patches",
-            "{BINPATCH}"
-          ],
-          "sides": null
-        }
-      ],
-      "libraries": [
-        {
-          "name": "net.neoforged.fancymodloader:earlydisplay:11.0.13",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "491a1bedecb33802fa118cae384b60f91f6f0241",
-              "size": 360749,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/11.0.13/earlydisplay-11.0.13.jar",
-              "path": "net/neoforged/fancymodloader/earlydisplay/11.0.13/earlydisplay-11.0.13.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged.fancymodloader:loader:11.0.13",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "c9c89eaf35535990110088224d188748d81eaecf",
-              "size": 663959,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/11.0.13/loader-11.0.13.jar",
-              "path": "net/neoforged/fancymodloader/loader/11.0.13/loader-11.0.13.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged:accesstransformers:11.0.2",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "25dcb69c78b16669935f0ab91dff830ce192379d",
-              "size": 20292,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar",
-              "path": "net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar"
-            }
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm-commons:9.9.1",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "ab35de4c537184a09339069f1a3b3aacf2289149",
-              "size": 75010,
-              "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar",
-              "path": "org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged:mergetool:2.0.7:api",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "793b18456e92c4a7f66d9b5d8bf7a9c1c7a20b20",
-              "size": 2550,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.7/mergetool-2.0.7-api.jar",
-              "path": "net/neoforged/mergetool/2.0.7/mergetool-2.0.7-api.jar"
-            }
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm-util:9.9.1",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "e51f5b0ae0b0c1960687ae970a2a3434d39d8abb",
-              "size": 94643,
-              "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar",
-              "path": "org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
-            }
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm-analysis:9.9.1",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "1ab8d9316ef7a67240087919a708246c37ed1660",
-              "size": 35170,
-              "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar",
-              "path": "org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
-            }
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm-tree:9.9.1",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "b6b1b3366296163b4b1f540731aad0a2baa484d8",
-              "size": 51963,
-              "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar",
-              "path": "org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged:bus:8.0.5",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "5b2d33285ab5d1554e9798ad98c40d6ea3868bd5",
-              "size": 30340,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar",
-              "path": "net/neoforged/bus/8.0.5/bus-8.0.5.jar"
-            }
-          }
-        },
-        {
-          "name": "org.ow2.asm:asm:9.9.1",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "2ceea6ab43bcae1979b2a6d85fc0ca429877e5ab",
-              "size": 126252,
-              "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar",
-              "path": "org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
-            }
-          }
-        },
-        {
-          "name": "com.electronwill.night-config:toml:3.8.3",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "90b2fd6efcb4a7d5b9810cf78f9d824994d717f2",
-              "size": 39516,
-              "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar",
-              "path": "com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar"
-            }
-          }
-        },
-        {
-          "name": "com.electronwill.night-config:core:3.8.3",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "b442a95f09e349927f5a945ecb594455870fcf4f",
-              "size": 382911,
-              "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar",
-              "path": "com/electronwill/night-config/core/3.8.3/core-3.8.3.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged:JarJarSelector:0.5.0",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "64e4956b8dcdd6537eba96590f12fa1f3ba2f831",
-              "size": 17083,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.5.0/JarJarSelector-0.5.0.jar",
-              "path": "net/neoforged/JarJarSelector/0.5.0/JarJarSelector-0.5.0.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged:JarJarMetadata:0.5.0",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "6f03d0ac17102c33cb7384e42a2e22eda2a3ad8c",
-              "size": 15648,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.5.0/JarJarMetadata-0.5.0.jar",
-              "path": "net/neoforged/JarJarMetadata/0.5.0/JarJarMetadata-0.5.0.jar"
-            }
-          }
-        },
-        {
-          "name": "org.apache.maven:maven-artifact:3.9.9",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "a130ec431ef32e12a4424f9b074735bb58e15d2d",
-              "size": 58819,
-              "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
-              "path": "org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar"
-            }
-          }
-        },
-        {
-          "name": "net.jodah:typetools:0.6.3",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "a01aaa6ddaea9ec07ec4f209487b7a46a526283a",
-              "size": 18281,
-              "url": "https://maven.neoforged.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
-              "path": "net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
-            }
-          }
-        },
-        {
-          "name": "net.minecrell:terminalconsoleappender:1.3.0",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "b562e9bb61235c9520e26282cdee71f8f802d1fc",
-              "size": 16949,
-              "url": "https://maven.neoforged.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar",
-              "path": "net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar"
-            }
-          }
-        },
-        {
-          "name": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "41c4a3984a80f4679e759fb9f495587acc5cdac7",
-              "size": 1540060,
-              "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar",
-              "path": "net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged.accesstransformers:at-parser:11.0.2",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "64aae57d6d26d69543c5275181fe6971707a4e16",
-              "size": 19331,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar",
-              "path": "net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar"
-            }
-          }
-        },
-        {
-          "name": "org.jline:jline-reader:3.20.0",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "8f15415b022a25b473e8e16c28ae913186ffb9c4",
-              "size": 171052,
-              "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
-              "path": "org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
-            }
-          }
-        },
-        {
-          "name": "org.jline:jline-terminal:3.20.0",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "d0ddcc708ddf527a3454c941b7b9225cc83a15ff",
-              "size": 228481,
-              "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
-              "path": "org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
-            }
-          }
-        },
-        {
-          "name": "org.lwjgl:lwjgl-tinyfd:3.4.1",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "562697d40dbd2ed0424bf24dcf65d51170f81adf",
-              "size": 15931,
-              "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.4.1/lwjgl-tinyfd-3.4.1.jar",
-              "path": "org/lwjgl/lwjgl-tinyfd/3.4.1/lwjgl-tinyfd-3.4.1.jar"
-            }
-          }
-        },
-        {
-          "name": "org.lwjgl:lwjgl:3.4.1",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "6105690714874b995aa7812e4f7732a21109276c",
-              "size": 1157957,
-              "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.4.1/lwjgl-3.4.1.jar",
-              "path": "org/lwjgl/lwjgl/3.4.1/lwjgl-3.4.1.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged:srgutils:1.0.10",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "abb471237b33b19f040ada00bfbad1ec45b949b6",
-              "size": 72018,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/srgutils/1.0.10/srgutils-1.0.10.jar",
-              "path": "net/neoforged/srgutils/1.0.10/srgutils-1.0.10.jar"
-            }
-          }
-        },
-        {
-          "name": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
-              "size": 2199,
-              "url": "https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-              "path": "com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
-            }
-          }
-        },
-        {
-          "name": "com.google.errorprone:error_prone_annotations:2.41.0",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "4381275efdef6ddfae38f002c31e84cd001c97f0",
-              "size": 20389,
-              "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar",
-              "path": "com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar"
-            }
-          }
-        },
-        {
-          "name": "com.google.j2objc:j2objc-annotations:3.1",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "a892ca9507839bbdb900d64310ac98256cab992f",
-              "size": 16762,
-              "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar",
-              "path": "com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar"
-            }
-          }
-        },
-        {
-          "name": "org.codehaus.plexus:plexus-utils:3.5.1",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "c6bfb17c97ecc8863e88778ea301be742c62b06d",
-              "size": 269335,
-              "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
-              "path": "org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged.installertools:installertools:4.0.12:fatjar",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "94b6e47c3f51f8ca40f8c54720369a952b821e95",
-              "size": 813509,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/installertools/4.0.12/installertools-4.0.12-fatjar.jar",
-              "path": "net/neoforged/installertools/installertools/4.0.12/installertools-4.0.12-fatjar.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged:neoforge:26.1.2.43-beta:universal",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "6b8b2150f4db76b1ac1890aba0033359fd84abba",
-              "size": 7508173,
-              "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.43-beta/neoforge-26.1.2.43-beta-universal.jar",
-              "path": "net/neoforged/neoforge/26.1.2.43-beta/neoforge-26.1.2.43-beta-universal.jar"
-            }
-          }
-        },
-        {
-          "name": "net.neoforged:neoforge:26.1.2.43-beta:clientdata@lzma",
-          "url": null,
-          "downloads": {
-            "artifact": {
-              "sha1": "6605d5ba898cfc572d766455134c9fb1ceac84b9",
-              "size": 0,
-              "url": "https://modloaders.forgecdn.net/647622546/maven/net/neoforged/neoforge/26.1.2.43-beta/neoforge-26.1.2.43-beta-clientdata.lzma",
-              "path": "net/neoforged/neoforge/26.1.2.43-beta/neoforge-26.1.2.43-beta-clientdata.lzma"
-            }
-          }
-        }
-      ],
-      "serverJarPath": "{LIBRARY_DIR}/net/minecraft/server/{MINECRAFT_VERSION}/server-{MINECRAFT_VERSION}.jar"
-    },
-    "libraries": [
-      {
-        "name": "net.neoforged.fancymodloader:earlydisplay:11.0.13",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/neoforged/fancymodloader/earlydisplay/11.0.13/earlydisplay-11.0.13.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/neoforged/fancymodloader/earlydisplay/11.0.13/earlydisplay-11.0.13.jar",
-            "sha1": "491a1bedecb33802fa118cae384b60f91f6f0241",
-            "size": 360749
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.neoforged.fancymodloader:loader:11.0.13",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/neoforged/fancymodloader/loader/11.0.13/loader-11.0.13.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/neoforged/fancymodloader/loader/11.0.13/loader-11.0.13.jar",
-            "sha1": "c9c89eaf35535990110088224d188748d81eaecf",
-            "size": 663959
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.neoforged:accesstransformers:11.0.2",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar",
-            "sha1": "25dcb69c78b16669935f0ab91dff830ce192379d",
-            "size": 20292
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "org.ow2.asm:asm-commons:9.9.1",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar",
-            "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar",
-            "sha1": "ab35de4c537184a09339069f1a3b3aacf2289149",
-            "size": 75010
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.neoforged:mergetool:2.0.7:api",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/neoforged/mergetool/2.0.7/mergetool-2.0.7-api.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/neoforged/mergetool/2.0.7/mergetool-2.0.7-api.jar",
-            "sha1": "793b18456e92c4a7f66d9b5d8bf7a9c1c7a20b20",
-            "size": 2550
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "org.ow2.asm:asm-util:9.9.1",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar",
-            "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar",
-            "sha1": "e51f5b0ae0b0c1960687ae970a2a3434d39d8abb",
-            "size": 94643
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "org.ow2.asm:asm-analysis:9.9.1",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar",
-            "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar",
-            "sha1": "1ab8d9316ef7a67240087919a708246c37ed1660",
-            "size": 35170
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "org.ow2.asm:asm-tree:9.9.1",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar",
-            "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar",
-            "sha1": "b6b1b3366296163b4b1f540731aad0a2baa484d8",
-            "size": 51963
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.neoforged:bus:8.0.5",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/neoforged/bus/8.0.5/bus-8.0.5.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar",
-            "sha1": "5b2d33285ab5d1554e9798ad98c40d6ea3868bd5",
-            "size": 30340
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "org.ow2.asm:asm:9.9.1",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "org/ow2/asm/asm/9.9.1/asm-9.9.1.jar",
-            "url": "https://neoforged.forgecdn.net/releases/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar",
-            "sha1": "2ceea6ab43bcae1979b2a6d85fc0ca429877e5ab",
-            "size": 126252
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "com.electronwill.night-config:toml:3.8.3",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar",
-            "url": "https://neoforged.forgecdn.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar",
-            "sha1": "90b2fd6efcb4a7d5b9810cf78f9d824994d717f2",
-            "size": 39516
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "com.electronwill.night-config:core:3.8.3",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "com/electronwill/night-config/core/3.8.3/core-3.8.3.jar",
-            "url": "https://neoforged.forgecdn.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar",
-            "sha1": "b442a95f09e349927f5a945ecb594455870fcf4f",
-            "size": 382911
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.neoforged:JarJarSelector:0.5.0",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/neoforged/JarJarSelector/0.5.0/JarJarSelector-0.5.0.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/neoforged/JarJarSelector/0.5.0/JarJarSelector-0.5.0.jar",
-            "sha1": "64e4956b8dcdd6537eba96590f12fa1f3ba2f831",
-            "size": 17083
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.neoforged:JarJarMetadata:0.5.0",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/neoforged/JarJarMetadata/0.5.0/JarJarMetadata-0.5.0.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/neoforged/JarJarMetadata/0.5.0/JarJarMetadata-0.5.0.jar",
-            "sha1": "6f03d0ac17102c33cb7384e42a2e22eda2a3ad8c",
-            "size": 15648
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "org.apache.maven:maven-artifact:3.9.9",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
-            "url": "https://neoforged.forgecdn.net/releases/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
-            "sha1": "a130ec431ef32e12a4424f9b074735bb58e15d2d",
-            "size": 58819
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.jodah:typetools:0.6.3",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
-            "sha1": "a01aaa6ddaea9ec07ec4f209487b7a46a526283a",
-            "size": 18281
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.minecrell:terminalconsoleappender:1.3.0",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar",
-            "sha1": "b562e9bb61235c9520e26282cdee71f8f802d1fc",
-            "size": 16949
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar",
-            "sha1": "41c4a3984a80f4679e759fb9f495587acc5cdac7",
-            "size": 1540060
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.neoforged.accesstransformers:at-parser:11.0.2",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar",
-            "sha1": "64aae57d6d26d69543c5275181fe6971707a4e16",
-            "size": 19331
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "org.jline:jline-reader:3.20.0",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
-            "url": "https://neoforged.forgecdn.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
-            "sha1": "8f15415b022a25b473e8e16c28ae913186ffb9c4",
-            "size": 171052
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "org.jline:jline-terminal:3.20.0",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
-            "url": "https://neoforged.forgecdn.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
-            "sha1": "d0ddcc708ddf527a3454c941b7b9225cc83a15ff",
-            "size": 228481
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "net.neoforged:srgutils:1.0.10",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "net/neoforged/srgutils/1.0.10/srgutils-1.0.10.jar",
-            "url": "https://neoforged.forgecdn.net/releases/net/neoforged/srgutils/1.0.10/srgutils-1.0.10.jar",
-            "sha1": "abb471237b33b19f040ada00bfbad1ec45b949b6",
-            "size": 72018
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-            "url": "https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-            "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
-            "size": 2199
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "com.google.errorprone:error_prone_annotations:2.41.0",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar",
-            "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar",
-            "sha1": "4381275efdef6ddfae38f002c31e84cd001c97f0",
-            "size": 20389
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "com.google.j2objc:j2objc-annotations:3.1",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar",
-            "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar",
-            "sha1": "a892ca9507839bbdb900d64310ac98256cab992f",
-            "size": 16762
-          },
-          "classifiers": null
-        }
-      },
-      {
-        "name": "org.codehaus.plexus:plexus-utils:3.5.1",
-        "url": null,
-        "serverreq": null,
-        "clientreq": null,
-        "natives": null,
-        "extract": null,
-        "rules": null,
-        "downloads": {
-          "artifact": {
-            "path": "org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
-            "url": "https://neoforged.forgecdn.net/releases/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
-            "sha1": "c6bfb17c97ecc8863e88778ea301be742c62b06d",
-            "size": 269335
-          },
-          "classifiers": null
-        }
-      }
-    ]
-  },
+  "artifactSha256": "987d1a1be5f5a77df7eefa8f285669ddf8ba27f124a7af9d9fcce62c526a1bda",
+  "artifactSize": 8414,
+  "loader": "echo-standalone-runtime",
   "runtime": {
     "requiredJava": "25+",
     "minecraftVersion": "26.1.2",
@@ -1485,268 +83,510 @@
   ],
   "files": [
     {
+      "path": "mods/echoadaptercore-1.0.0-standalone.jar",
+      "assetName": "echoadaptercore-1.0.0-standalone.jar",
+      "artifactName": "echoadaptercore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoadaptercore-1.0.0-standalone.jar",
+      "sha256": "b0640a9a0fef5903723939eb33fcc0090b7ad080ed3c86ef1efe8ca7a246a38d",
+      "size": 944417,
+      "required": true,
+      "moduleId": "echoadaptercore",
+      "side": "both"
+    },
+    {
       "path": "mods/echoagriculturereclamation-1.0.0-standalone.jar",
       "assetName": "echoagriculturereclamation-1.0.0-standalone.jar",
+      "artifactName": "echoagriculturereclamation-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoagriculturereclamation-1.0.0-standalone.jar",
+      "sha256": "5eff7d1755996dafcbfbff1f5d5f1e9ace5819b018c2942efdf15621b7966abb",
+      "size": 502465,
       "required": true,
       "moduleId": "echoagriculturereclamation",
-      "side": "both",
-      "artifactName": "echoagriculturereclamation-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoarmory-1.0.0-standalone.jar",
       "assetName": "echoarmory-1.0.0-standalone.jar",
+      "artifactName": "echoarmory-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoarmory-1.0.0-standalone.jar",
+      "sha256": "482dbda381e25b44aa8d1cecf2bc380fce782619f0e7cc52b8f0c267b17840ec",
+      "size": 10422891,
       "required": true,
       "moduleId": "echoarmory",
-      "side": "both",
-      "artifactName": "echoarmory-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoashfallprotocol-1.0.0-standalone.jar",
       "assetName": "echoashfallprotocol-1.0.0-standalone.jar",
+      "artifactName": "echoashfallprotocol-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoashfallprotocol-1.0.0-standalone.jar",
+      "sha256": "f0e172a809cfde3b97df539fdf4fbd988c23b1ad90a7ea82b47d0c3e349ae054",
+      "size": 59363477,
       "required": true,
       "moduleId": "echoashfallprotocol",
-      "side": "both",
-      "artifactName": "echoashfallprotocol-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoblackboxprotocol-1.0.0-standalone.jar",
       "assetName": "echoblackboxprotocol-1.0.0-standalone.jar",
+      "artifactName": "echoblackboxprotocol-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoblackboxprotocol-1.0.0-standalone.jar",
+      "sha256": "ea67b6b3c7f374caa27b1c820561a00a2a96662d23a7b5a8b6d9c118ed13a8bf",
+      "size": 10846243,
       "required": true,
       "moduleId": "echoblackboxprotocol",
-      "side": "both",
-      "artifactName": "echoblackboxprotocol-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoblockworks-1.0.0-standalone.jar",
       "assetName": "echoblockworks-1.0.0-standalone.jar",
+      "artifactName": "echoblockworks-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoblockworks-1.0.0-standalone.jar",
+      "sha256": "3946ca4cc4b55d7fecb0e4701fd3d598e250829328fe936bc8a39889ac55363c",
+      "size": 1302359,
       "required": true,
       "moduleId": "echoblockworks",
-      "side": "both",
-      "artifactName": "echoblockworks-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echocommonloot-0.1.0-standalone.jar",
+      "assetName": "echocommonloot-0.1.0-standalone.jar",
+      "artifactName": "echocommonloot-0.1.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocommonloot-0.1.0-standalone.jar",
+      "sha256": "5e7d04987fef554a39217977cd7a970aa41134dfc17a4eaae940d8bb1abb8f21",
+      "size": 7770,
+      "required": true,
+      "moduleId": "echocommonloot",
+      "side": "both"
+    },
+    {
+      "path": "mods/echocontentcore-1.0.0-standalone.jar",
+      "assetName": "echocontentcore-1.0.0-standalone.jar",
+      "artifactName": "echocontentcore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocontentcore-1.0.0-standalone.jar",
+      "sha256": "4bf49389a6413a009923463e3ecc23e1ce2ff9eaf4f8fadedf64c7796e21c9e0",
+      "size": 33258,
+      "required": true,
+      "moduleId": "echocontentcore",
+      "side": "both"
     },
     {
       "path": "mods/echoconvoyprotocol-1.0.0-standalone.jar",
       "assetName": "echoconvoyprotocol-1.0.0-standalone.jar",
+      "artifactName": "echoconvoyprotocol-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoconvoyprotocol-1.0.0-standalone.jar",
+      "sha256": "60ec872e4d8e2efd2c64fb47c65d106550fc070541fa78f3a66e529e93083bdc",
+      "size": 903855,
       "required": true,
       "moduleId": "echoconvoyprotocol",
-      "side": "both",
-      "artifactName": "echoconvoyprotocol-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echocore-1.0.0-standalone.jar",
       "assetName": "echocore-1.0.0-standalone.jar",
+      "artifactName": "echocore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocore-1.0.0-standalone.jar",
+      "sha256": "08c840372906e0132b6ee5c403cb7965293d96a91492725cf5c58554a840eae9",
+      "size": 368893,
       "required": true,
       "moduleId": "echocore",
-      "side": "both",
-      "artifactName": "echocore-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echocreatureroles-0.1.0-standalone.jar",
+      "assetName": "echocreatureroles-0.1.0-standalone.jar",
+      "artifactName": "echocreatureroles-0.1.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocreatureroles-0.1.0-standalone.jar",
+      "sha256": "0d63d4260b5f9312cbaeff27e652033e51b015e2bf37212b10ddbaba2d236bc2",
+      "size": 7615,
+      "required": true,
+      "moduleId": "echocreatureroles",
+      "side": "both"
     },
     {
       "path": "mods/echodatacore-1.0.0-standalone.jar",
       "assetName": "echodatacore-1.0.0-standalone.jar",
+      "artifactName": "echodatacore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echodatacore-1.0.0-standalone.jar",
+      "sha256": "99c33db4aa4a4246a0839e85a5256830b570ad11f556f04d57d87dee23b2233c",
+      "size": 105202,
       "required": true,
       "moduleId": "echodatacore",
-      "side": "both",
-      "artifactName": "echodatacore-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echofoundationcore-0.1.0-standalone.jar",
+      "assetName": "echofoundationcore-0.1.0-standalone.jar",
+      "artifactName": "echofoundationcore-0.1.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echofoundationcore-0.1.0-standalone.jar",
+      "sha256": "08490039470e6eb12206bd25421fdce3e702208abbf784fc59c2b90d9e6a5f71",
+      "size": 10963,
+      "required": true,
+      "moduleId": "echofoundationcore",
+      "side": "both"
     },
     {
       "path": "mods/echoholomap-1.0.0-standalone.jar",
       "assetName": "echoholomap-1.0.0-standalone.jar",
+      "artifactName": "echoholomap-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoholomap-1.0.0-standalone.jar",
+      "sha256": "305795227dc6e05074437889e2e227bceedce829c8f8f321d2ff65310f16e58a",
+      "size": 1496602,
       "required": true,
       "moduleId": "echoholomap",
-      "side": "both",
-      "artifactName": "echoholomap-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echohudcore-1.0.0-standalone.jar",
+      "assetName": "echohudcore-1.0.0-standalone.jar",
+      "artifactName": "echohudcore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echohudcore-1.0.0-standalone.jar",
+      "sha256": "e66159111bf5bd3d800c8a0b7cfc10359c15246abdb5543e7a775da6fad925e6",
+      "size": 46517,
+      "required": true,
+      "moduleId": "echohudcore",
+      "side": "both"
     },
     {
       "path": "mods/echoindex-1.0.0-standalone.jar",
       "assetName": "echoindex-1.0.0-standalone.jar",
+      "artifactName": "echoindex-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoindex-1.0.0-standalone.jar",
+      "sha256": "85ca960ca80cc55e4d2d796c460c9aae4c63acbefa9e002160a071d04c5722b9",
+      "size": 586916,
       "required": true,
       "moduleId": "echoindex",
-      "side": "both",
-      "artifactName": "echoindex-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoindustrialnexus-1.0.0-standalone.jar",
       "assetName": "echoindustrialnexus-1.0.0-standalone.jar",
+      "artifactName": "echoindustrialnexus-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoindustrialnexus-1.0.0-standalone.jar",
+      "sha256": "9f3c9d314cf8937e74896af1ca7060ea3001210ce0eb8496dff3951ecac52756",
+      "size": 5310384,
       "required": true,
       "moduleId": "echoindustrialnexus",
-      "side": "both",
-      "artifactName": "echoindustrialnexus-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echolens-1.0.0-standalone.jar",
       "assetName": "echolens-1.0.0-standalone.jar",
+      "artifactName": "echolens-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echolens-1.0.0-standalone.jar",
+      "sha256": "0cdee5ab200d5d7509c0707d589341ccad8d77e7573856a9bf11827feee51ce9",
+      "size": 215156,
       "required": true,
       "moduleId": "echolens",
-      "side": "both",
-      "artifactName": "echolens-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echologisticsnetwork-1.0.0-standalone.jar",
       "assetName": "echologisticsnetwork-1.0.0-standalone.jar",
+      "artifactName": "echologisticsnetwork-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echologisticsnetwork-1.0.0-standalone.jar",
+      "sha256": "e7b36891065348658e45d5bb8d294aac3e1ce93db3799ee2b3e718234432a70a",
+      "size": 3672994,
       "required": true,
       "moduleId": "echologisticsnetwork",
-      "side": "both",
-      "artifactName": "echologisticsnetwork-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echomaterialcore-0.1.0-standalone.jar",
+      "assetName": "echomaterialcore-0.1.0-standalone.jar",
+      "artifactName": "echomaterialcore-0.1.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomaterialcore-0.1.0-standalone.jar",
+      "sha256": "c3db8054732ab7d58e173ddc270a56f8d32891ac2eb9d480a3a4cc5a2f69b8b3",
+      "size": 13223,
+      "required": true,
+      "moduleId": "echomaterialcore",
+      "side": "both"
     },
     {
       "path": "mods/echomissioncore-1.0.0-standalone.jar",
       "assetName": "echomissioncore-1.0.0-standalone.jar",
+      "artifactName": "echomissioncore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomissioncore-1.0.0-standalone.jar",
+      "sha256": "77300c0c65c0235bf933bf2d3445ada81f92029d3adce4eaa8e35f389c9564c4",
+      "size": 103747,
       "required": true,
       "moduleId": "echomissioncore",
-      "side": "both",
-      "artifactName": "echomissioncore-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echomultiblockcore-1.0.0-standalone.jar",
       "assetName": "echomultiblockcore-1.0.0-standalone.jar",
+      "artifactName": "echomultiblockcore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomultiblockcore-1.0.0-standalone.jar",
+      "sha256": "f5a6b03db51169d768ae57f6fc66072bf9e84c2a7a7634c0ff9ddd8d545686a0",
+      "size": 12685366,
       "required": true,
       "moduleId": "echomultiblockcore",
-      "side": "both",
-      "artifactName": "echomultiblockcore-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echonetcore-1.0.0-standalone.jar",
       "assetName": "echonetcore-1.0.0-standalone.jar",
+      "artifactName": "echonetcore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echonetcore-1.0.0-standalone.jar",
+      "sha256": "aaf569138b2dbf922077ac082e87dea877019d51d535fcf7ef795fb81fe9b51e",
+      "size": 68877,
       "required": true,
       "moduleId": "echonetcore",
-      "side": "both",
-      "artifactName": "echonetcore-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echonexusprotocol-1.0.0-standalone.jar",
       "assetName": "echonexusprotocol-1.0.0-standalone.jar",
+      "artifactName": "echonexusprotocol-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echonexusprotocol-1.0.0-standalone.jar",
+      "sha256": "4c68bed2b790caa0603339e12f02bd0c7337636a68bb24b8726914707e4ed947",
+      "size": 13873708,
       "required": true,
       "moduleId": "echonexusprotocol",
-      "side": "both",
-      "artifactName": "echonexusprotocol-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoorbitalremnants-1.0.0-standalone.jar",
       "assetName": "echoorbitalremnants-1.0.0-standalone.jar",
+      "artifactName": "echoorbitalremnants-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoorbitalremnants-1.0.0-standalone.jar",
+      "sha256": "46630a32579dfad28b3061b92dfec55885fb0119eaea63ae6be5f7186645646b",
+      "size": 14483849,
       "required": true,
       "moduleId": "echoorbitalremnants",
-      "side": "both",
-      "artifactName": "echoorbitalremnants-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echoplatformcore-1.0.0-standalone.jar",
+      "assetName": "echoplatformcore-1.0.0-standalone.jar",
+      "artifactName": "echoplatformcore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoplatformcore-1.0.0-standalone.jar",
+      "sha256": "08ffab62ed5577e0dda88c20ecb959b81d27c2527d9e60db845fd4fdc1948d60",
+      "size": 46626,
+      "required": true,
+      "moduleId": "echoplatformcore",
+      "side": "both"
     },
     {
       "path": "mods/echopowergrid-1.0.0-standalone.jar",
       "assetName": "echopowergrid-1.0.0-standalone.jar",
+      "artifactName": "echopowergrid-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echopowergrid-1.0.0-standalone.jar",
+      "sha256": "f258a21b1d9f972f7b76fa60ef3e43b0c52795ea1e4878b4a3a8c1f210ede9e7",
+      "size": 7185421,
       "required": true,
       "moduleId": "echopowergrid",
-      "side": "both",
-      "artifactName": "echopowergrid-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echorecovery-1.3.0-standalone.jar",
       "assetName": "echorecovery-1.3.0-standalone.jar",
+      "artifactName": "echorecovery-1.3.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echorecovery-1.3.0-standalone.jar",
+      "sha256": "ff852fb8438427cec417e2fd476ad44778c52150be3721fa7ddbce5a0ccb3897",
+      "size": 2687036,
       "required": true,
       "moduleId": "echorecovery",
-      "side": "both",
-      "artifactName": "echorecovery-1.3.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echorelictech-1.0.0-standalone.jar",
       "assetName": "echorelictech-1.0.0-standalone.jar",
+      "artifactName": "echorelictech-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echorelictech-1.0.0-standalone.jar",
+      "sha256": "a4a59fd878383d5c142347458be882be4b768f3778fe4a41552651076f0b09a9",
+      "size": 7709166,
       "required": true,
       "moduleId": "echorelictech",
-      "side": "both",
-      "artifactName": "echorelictech-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echorendercore-1.0.0-standalone.jar",
       "assetName": "echorendercore-1.0.0-standalone.jar",
+      "artifactName": "echorendercore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echorendercore-1.0.0-standalone.jar",
+      "sha256": "046bafceb3b39efc6619d9837f1d59a7979bc3f394f47ddf568ac38a315884f7",
+      "size": 510544,
       "required": true,
       "moduleId": "echorendercore",
-      "side": "both",
-      "artifactName": "echorendercore-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoruntimeguard-1.0.0-standalone.jar",
       "assetName": "echoruntimeguard-1.0.0-standalone.jar",
+      "artifactName": "echoruntimeguard-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoruntimeguard-1.0.0-standalone.jar",
+      "sha256": "46679ab9bf1e6df1eb467fb61444ff11828abffd95259732661a4ef022e90e79",
+      "size": 127439,
       "required": true,
       "moduleId": "echoruntimeguard",
-      "side": "both",
-      "artifactName": "echoruntimeguard-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echoschemacore-1.0.0-standalone.jar",
+      "assetName": "echoschemacore-1.0.0-standalone.jar",
+      "artifactName": "echoschemacore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoschemacore-1.0.0-standalone.jar",
+      "sha256": "ebc8a5ab443d5c4550e75034b6c9e1d3ff257632ce192627c8d03ad115746f31",
+      "size": 30695,
+      "required": true,
+      "moduleId": "echoschemacore",
+      "side": "both"
     },
     {
       "path": "mods/echoscreencore-1.0.0-standalone.jar",
       "assetName": "echoscreencore-1.0.0-standalone.jar",
+      "artifactName": "echoscreencore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoscreencore-1.0.0-standalone.jar",
+      "sha256": "f6bffe016051bbb1ad97c23665c6390a032a47a094319b234223fbd0f25849e1",
+      "size": 392453,
       "required": true,
       "moduleId": "echoscreencore",
-      "side": "both",
-      "artifactName": "echoscreencore-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echosoundcore-1.0.0-standalone.jar",
       "assetName": "echosoundcore-1.0.0-standalone.jar",
+      "artifactName": "echosoundcore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echosoundcore-1.0.0-standalone.jar",
+      "sha256": "17d05320e6c2a1350cc1ec056d143e5f69e816ce739834f8dd16ba0546631e8a",
+      "size": 11079841,
       "required": true,
       "moduleId": "echosoundcore",
-      "side": "both",
-      "artifactName": "echosoundcore-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echostationcore-0.1.0-standalone.jar",
+      "assetName": "echostationcore-0.1.0-standalone.jar",
+      "artifactName": "echostationcore-0.1.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echostationcore-0.1.0-standalone.jar",
+      "sha256": "79051d67b7996f6f8497ff5d7925c7988ac62417fd4cd12391386268c4823af1",
+      "size": 9170,
+      "required": true,
+      "moduleId": "echostationcore",
+      "side": "both"
     },
     {
       "path": "mods/echostationfall-1.0.0-standalone.jar",
       "assetName": "echostationfall-1.0.0-standalone.jar",
+      "artifactName": "echostationfall-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echostationfall-1.0.0-standalone.jar",
+      "sha256": "8ee7d70354eb52ba002b639d0c06df12a7a41eb56192f17272deb8dead6e775b",
+      "size": 3926018,
       "required": true,
       "moduleId": "echostationfall",
-      "side": "both",
-      "artifactName": "echostationfall-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoterminal-1.0.0-standalone.jar",
       "assetName": "echoterminal-1.0.0-standalone.jar",
+      "artifactName": "echoterminal-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoterminal-1.0.0-standalone.jar",
+      "sha256": "d3fccd81a0247b588a04ff9bd44181d4957cbc36b32848f7ec62a736d1567251",
+      "size": 22986185,
       "required": true,
       "moduleId": "echoterminal",
-      "side": "both",
-      "artifactName": "echoterminal-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echothemecore-1.3.0-standalone.jar",
       "assetName": "echothemecore-1.3.0-standalone.jar",
+      "artifactName": "echothemecore-1.3.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echothemecore-1.3.0-standalone.jar",
+      "sha256": "de1dfe5e380809dea72dc9794b2f6eff12f9285825f8a5c460d35cff7aebdfe6",
+      "size": 69621167,
       "required": true,
       "moduleId": "echothemecore",
-      "side": "both",
-      "artifactName": "echothemecore-1.3.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echotoolcore-0.1.0-standalone.jar",
+      "assetName": "echotoolcore-0.1.0-standalone.jar",
+      "artifactName": "echotoolcore-0.1.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echotoolcore-0.1.0-standalone.jar",
+      "sha256": "55c8249566926f27d29d204bcc9b9759cc6a6b7e45457db32ceff5e268db3989",
+      "size": 8982,
+      "required": true,
+      "moduleId": "echotoolcore",
+      "side": "both"
     },
     {
       "path": "mods/echotutorialcore-1.0.0-standalone.jar",
       "assetName": "echotutorialcore-1.0.0-standalone.jar",
+      "artifactName": "echotutorialcore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echotutorialcore-1.0.0-standalone.jar",
+      "sha256": "e30319203f0d26be27672fe3cf1077325b8ce08826e99d352051cfeec07c06d3",
+      "size": 214981,
       "required": true,
       "moduleId": "echotutorialcore",
-      "side": "both",
-      "artifactName": "echotutorialcore-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echovalidationcore-1.0.0-standalone.jar",
+      "assetName": "echovalidationcore-1.0.0-standalone.jar",
+      "artifactName": "echovalidationcore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echovalidationcore-1.0.0-standalone.jar",
+      "sha256": "3752f1c046db9c93b79927af0b0b8b20380e1e28fbd9438a7a0945283fb709b5",
+      "size": 41988,
+      "required": true,
+      "moduleId": "echovalidationcore",
+      "side": "both"
     },
     {
       "path": "mods/echoweathercore-1.0.0-standalone.jar",
       "assetName": "echoweathercore-1.0.0-standalone.jar",
+      "artifactName": "echoweathercore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoweathercore-1.0.0-standalone.jar",
+      "sha256": "37375351318f4340d23b48b85b6f5c8d8c2053c62738787ab6a74b82994c353f",
+      "size": 244558,
       "required": true,
       "moduleId": "echoweathercore",
-      "side": "both",
-      "artifactName": "echoweathercore-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echowiki-1.0.0-standalone.jar",
       "assetName": "echowiki-1.0.0-standalone.jar",
+      "artifactName": "echowiki-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echowiki-1.0.0-standalone.jar",
+      "sha256": "0b0ae39ec211455e5160b8e2609756d1af5dc4a0483bf604ab6f00f17fb6fde7",
+      "size": 4712008,
       "required": true,
       "moduleId": "echowiki",
-      "side": "both",
-      "artifactName": "echowiki-1.0.0-standalone.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoworldcore-1.0.0-standalone.jar",
       "assetName": "echoworldcore-1.0.0-standalone.jar",
+      "artifactName": "echoworldcore-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoworldcore-1.0.0-standalone.jar",
+      "sha256": "3085dd429bb371b90550e48cbe74a8eed6f2145cbabc5587f3af0415f377fed6",
+      "size": 176866,
       "required": true,
       "moduleId": "echoworldcore",
-      "side": "both",
-      "artifactName": "echoworldcore-1.0.0-standalone.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echoworldstarter-0.1.0-standalone.jar",
+      "assetName": "echoworldstarter-0.1.0-standalone.jar",
+      "artifactName": "echoworldstarter-0.1.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoworldstarter-0.1.0-standalone.jar",
+      "sha256": "a48cd5fcd4ea099f5c1868992c780a76fbf99a258e4a0ab0c565476fa2ef8ff9",
+      "size": 10295,
+      "required": true,
+      "moduleId": "echoworldstarter",
+      "side": "both"
     },
     {
       "path": "mods/signalos-1.0.0-standalone.jar",
       "assetName": "signalos-1.0.0-standalone.jar",
+      "artifactName": "signalos-1.0.0-standalone.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/signalos-1.0.0-standalone.jar",
+      "sha256": "381e86ab9f03f2b13e473dec2b8a4c9b9742fdc0a184ff1e3465f0b1e8567aea",
+      "size": 1849673,
       "required": true,
       "moduleId": "signalos",
-      "side": "both",
-      "artifactName": "signalos-1.0.0-standalone.jar"
+      "side": "both"
     }
   ],
   "changelog": [
@@ -1766,6 +606,9 @@
       "assetName": "echoadaptercore-1.0.0-standalone.jar",
       "artifactName": "echoadaptercore-1.0.0-standalone.jar",
       "path": "mods/echoadaptercore-1.0.0-standalone.jar",
+      "sha256": "b0640a9a0fef5903723939eb33fcc0090b7ad080ed3c86ef1efe8ca7a246a38d",
+      "size": 944417,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoadaptercore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1777,6 +620,9 @@
       "assetName": "echoagriculturereclamation-1.0.0-standalone.jar",
       "artifactName": "echoagriculturereclamation-1.0.0-standalone.jar",
       "path": "mods/echoagriculturereclamation-1.0.0-standalone.jar",
+      "sha256": "5eff7d1755996dafcbfbff1f5d5f1e9ace5819b018c2942efdf15621b7966abb",
+      "size": 502465,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoagriculturereclamation-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1788,6 +634,9 @@
       "assetName": "echoarmory-1.0.0-standalone.jar",
       "artifactName": "echoarmory-1.0.0-standalone.jar",
       "path": "mods/echoarmory-1.0.0-standalone.jar",
+      "sha256": "482dbda381e25b44aa8d1cecf2bc380fce782619f0e7cc52b8f0c267b17840ec",
+      "size": 10422891,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoarmory-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1799,6 +648,9 @@
       "assetName": "echoashfallprotocol-1.0.0-standalone.jar",
       "artifactName": "echoashfallprotocol-1.0.0-standalone.jar",
       "path": "mods/echoashfallprotocol-1.0.0-standalone.jar",
+      "sha256": "f0e172a809cfde3b97df539fdf4fbd988c23b1ad90a7ea82b47d0c3e349ae054",
+      "size": 59363477,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoashfallprotocol-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1810,6 +662,9 @@
       "assetName": "echoblackboxprotocol-1.0.0-standalone.jar",
       "artifactName": "echoblackboxprotocol-1.0.0-standalone.jar",
       "path": "mods/echoblackboxprotocol-1.0.0-standalone.jar",
+      "sha256": "ea67b6b3c7f374caa27b1c820561a00a2a96662d23a7b5a8b6d9c118ed13a8bf",
+      "size": 10846243,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoblackboxprotocol-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1821,6 +676,9 @@
       "assetName": "echoblockworks-1.0.0-standalone.jar",
       "artifactName": "echoblockworks-1.0.0-standalone.jar",
       "path": "mods/echoblockworks-1.0.0-standalone.jar",
+      "sha256": "3946ca4cc4b55d7fecb0e4701fd3d598e250829328fe936bc8a39889ac55363c",
+      "size": 1302359,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoblockworks-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1832,6 +690,9 @@
       "assetName": "echocommonloot-0.1.0-standalone.jar",
       "artifactName": "echocommonloot-0.1.0-standalone.jar",
       "path": "mods/echocommonloot-0.1.0-standalone.jar",
+      "sha256": "5e7d04987fef554a39217977cd7a970aa41134dfc17a4eaae940d8bb1abb8f21",
+      "size": 7770,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocommonloot-0.1.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1843,6 +704,9 @@
       "assetName": "echocontentcore-1.0.0-standalone.jar",
       "artifactName": "echocontentcore-1.0.0-standalone.jar",
       "path": "mods/echocontentcore-1.0.0-standalone.jar",
+      "sha256": "4bf49389a6413a009923463e3ecc23e1ce2ff9eaf4f8fadedf64c7796e21c9e0",
+      "size": 33258,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocontentcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1854,6 +718,9 @@
       "assetName": "echoconvoyprotocol-1.0.0-standalone.jar",
       "artifactName": "echoconvoyprotocol-1.0.0-standalone.jar",
       "path": "mods/echoconvoyprotocol-1.0.0-standalone.jar",
+      "sha256": "60ec872e4d8e2efd2c64fb47c65d106550fc070541fa78f3a66e529e93083bdc",
+      "size": 903855,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoconvoyprotocol-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1865,6 +732,9 @@
       "assetName": "echocore-1.0.0-standalone.jar",
       "artifactName": "echocore-1.0.0-standalone.jar",
       "path": "mods/echocore-1.0.0-standalone.jar",
+      "sha256": "08c840372906e0132b6ee5c403cb7965293d96a91492725cf5c58554a840eae9",
+      "size": 368893,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1876,6 +746,9 @@
       "assetName": "echocreatureroles-0.1.0-standalone.jar",
       "artifactName": "echocreatureroles-0.1.0-standalone.jar",
       "path": "mods/echocreatureroles-0.1.0-standalone.jar",
+      "sha256": "0d63d4260b5f9312cbaeff27e652033e51b015e2bf37212b10ddbaba2d236bc2",
+      "size": 7615,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocreatureroles-0.1.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1887,6 +760,9 @@
       "assetName": "echodatacore-1.0.0-standalone.jar",
       "artifactName": "echodatacore-1.0.0-standalone.jar",
       "path": "mods/echodatacore-1.0.0-standalone.jar",
+      "sha256": "99c33db4aa4a4246a0839e85a5256830b570ad11f556f04d57d87dee23b2233c",
+      "size": 105202,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echodatacore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1898,6 +774,9 @@
       "assetName": "echofoundationcore-0.1.0-standalone.jar",
       "artifactName": "echofoundationcore-0.1.0-standalone.jar",
       "path": "mods/echofoundationcore-0.1.0-standalone.jar",
+      "sha256": "08490039470e6eb12206bd25421fdce3e702208abbf784fc59c2b90d9e6a5f71",
+      "size": 10963,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echofoundationcore-0.1.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1909,6 +788,9 @@
       "assetName": "echoholomap-1.0.0-standalone.jar",
       "artifactName": "echoholomap-1.0.0-standalone.jar",
       "path": "mods/echoholomap-1.0.0-standalone.jar",
+      "sha256": "305795227dc6e05074437889e2e227bceedce829c8f8f321d2ff65310f16e58a",
+      "size": 1496602,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoholomap-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1920,6 +802,9 @@
       "assetName": "echohudcore-1.0.0-standalone.jar",
       "artifactName": "echohudcore-1.0.0-standalone.jar",
       "path": "mods/echohudcore-1.0.0-standalone.jar",
+      "sha256": "e66159111bf5bd3d800c8a0b7cfc10359c15246abdb5543e7a775da6fad925e6",
+      "size": 46517,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echohudcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1931,6 +816,9 @@
       "assetName": "echoindex-1.0.0-standalone.jar",
       "artifactName": "echoindex-1.0.0-standalone.jar",
       "path": "mods/echoindex-1.0.0-standalone.jar",
+      "sha256": "85ca960ca80cc55e4d2d796c460c9aae4c63acbefa9e002160a071d04c5722b9",
+      "size": 586916,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoindex-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1942,6 +830,9 @@
       "assetName": "echoindustrialnexus-1.0.0-standalone.jar",
       "artifactName": "echoindustrialnexus-1.0.0-standalone.jar",
       "path": "mods/echoindustrialnexus-1.0.0-standalone.jar",
+      "sha256": "9f3c9d314cf8937e74896af1ca7060ea3001210ce0eb8496dff3951ecac52756",
+      "size": 5310384,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoindustrialnexus-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1953,6 +844,9 @@
       "assetName": "echolens-1.0.0-standalone.jar",
       "artifactName": "echolens-1.0.0-standalone.jar",
       "path": "mods/echolens-1.0.0-standalone.jar",
+      "sha256": "0cdee5ab200d5d7509c0707d589341ccad8d77e7573856a9bf11827feee51ce9",
+      "size": 215156,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echolens-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1964,6 +858,9 @@
       "assetName": "echologisticsnetwork-1.0.0-standalone.jar",
       "artifactName": "echologisticsnetwork-1.0.0-standalone.jar",
       "path": "mods/echologisticsnetwork-1.0.0-standalone.jar",
+      "sha256": "e7b36891065348658e45d5bb8d294aac3e1ce93db3799ee2b3e718234432a70a",
+      "size": 3672994,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echologisticsnetwork-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1975,6 +872,9 @@
       "assetName": "echomaterialcore-0.1.0-standalone.jar",
       "artifactName": "echomaterialcore-0.1.0-standalone.jar",
       "path": "mods/echomaterialcore-0.1.0-standalone.jar",
+      "sha256": "c3db8054732ab7d58e173ddc270a56f8d32891ac2eb9d480a3a4cc5a2f69b8b3",
+      "size": 13223,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomaterialcore-0.1.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1986,6 +886,9 @@
       "assetName": "echomissioncore-1.0.0-standalone.jar",
       "artifactName": "echomissioncore-1.0.0-standalone.jar",
       "path": "mods/echomissioncore-1.0.0-standalone.jar",
+      "sha256": "77300c0c65c0235bf933bf2d3445ada81f92029d3adce4eaa8e35f389c9564c4",
+      "size": 103747,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomissioncore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -1997,6 +900,9 @@
       "assetName": "echomultiblockcore-1.0.0-standalone.jar",
       "artifactName": "echomultiblockcore-1.0.0-standalone.jar",
       "path": "mods/echomultiblockcore-1.0.0-standalone.jar",
+      "sha256": "f5a6b03db51169d768ae57f6fc66072bf9e84c2a7a7634c0ff9ddd8d545686a0",
+      "size": 12685366,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomultiblockcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2008,6 +914,9 @@
       "assetName": "echonetcore-1.0.0-standalone.jar",
       "artifactName": "echonetcore-1.0.0-standalone.jar",
       "path": "mods/echonetcore-1.0.0-standalone.jar",
+      "sha256": "aaf569138b2dbf922077ac082e87dea877019d51d535fcf7ef795fb81fe9b51e",
+      "size": 68877,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echonetcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2019,6 +928,9 @@
       "assetName": "echonexusprotocol-1.0.0-standalone.jar",
       "artifactName": "echonexusprotocol-1.0.0-standalone.jar",
       "path": "mods/echonexusprotocol-1.0.0-standalone.jar",
+      "sha256": "4c68bed2b790caa0603339e12f02bd0c7337636a68bb24b8726914707e4ed947",
+      "size": 13873708,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echonexusprotocol-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2030,6 +942,9 @@
       "assetName": "echoorbitalremnants-1.0.0-standalone.jar",
       "artifactName": "echoorbitalremnants-1.0.0-standalone.jar",
       "path": "mods/echoorbitalremnants-1.0.0-standalone.jar",
+      "sha256": "46630a32579dfad28b3061b92dfec55885fb0119eaea63ae6be5f7186645646b",
+      "size": 14483849,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoorbitalremnants-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2041,6 +956,9 @@
       "assetName": "echoplatformcore-1.0.0-standalone.jar",
       "artifactName": "echoplatformcore-1.0.0-standalone.jar",
       "path": "mods/echoplatformcore-1.0.0-standalone.jar",
+      "sha256": "08ffab62ed5577e0dda88c20ecb959b81d27c2527d9e60db845fd4fdc1948d60",
+      "size": 46626,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoplatformcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2052,6 +970,9 @@
       "assetName": "echopowergrid-1.0.0-standalone.jar",
       "artifactName": "echopowergrid-1.0.0-standalone.jar",
       "path": "mods/echopowergrid-1.0.0-standalone.jar",
+      "sha256": "f258a21b1d9f972f7b76fa60ef3e43b0c52795ea1e4878b4a3a8c1f210ede9e7",
+      "size": 7185421,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echopowergrid-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2063,6 +984,9 @@
       "assetName": "echorecovery-1.3.0-standalone.jar",
       "artifactName": "echorecovery-1.3.0-standalone.jar",
       "path": "mods/echorecovery-1.3.0-standalone.jar",
+      "sha256": "ff852fb8438427cec417e2fd476ad44778c52150be3721fa7ddbce5a0ccb3897",
+      "size": 2687036,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echorecovery-1.3.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2074,6 +998,9 @@
       "assetName": "echorelictech-1.0.0-standalone.jar",
       "artifactName": "echorelictech-1.0.0-standalone.jar",
       "path": "mods/echorelictech-1.0.0-standalone.jar",
+      "sha256": "a4a59fd878383d5c142347458be882be4b768f3778fe4a41552651076f0b09a9",
+      "size": 7709166,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echorelictech-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2085,6 +1012,9 @@
       "assetName": "echorendercore-1.0.0-standalone.jar",
       "artifactName": "echorendercore-1.0.0-standalone.jar",
       "path": "mods/echorendercore-1.0.0-standalone.jar",
+      "sha256": "046bafceb3b39efc6619d9837f1d59a7979bc3f394f47ddf568ac38a315884f7",
+      "size": 510544,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echorendercore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2096,6 +1026,9 @@
       "assetName": "echoruntimeguard-1.0.0-standalone.jar",
       "artifactName": "echoruntimeguard-1.0.0-standalone.jar",
       "path": "mods/echoruntimeguard-1.0.0-standalone.jar",
+      "sha256": "46679ab9bf1e6df1eb467fb61444ff11828abffd95259732661a4ef022e90e79",
+      "size": 127439,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoruntimeguard-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2107,6 +1040,9 @@
       "assetName": "echoschemacore-1.0.0-standalone.jar",
       "artifactName": "echoschemacore-1.0.0-standalone.jar",
       "path": "mods/echoschemacore-1.0.0-standalone.jar",
+      "sha256": "ebc8a5ab443d5c4550e75034b6c9e1d3ff257632ce192627c8d03ad115746f31",
+      "size": 30695,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoschemacore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2118,6 +1054,9 @@
       "assetName": "echoscreencore-1.0.0-standalone.jar",
       "artifactName": "echoscreencore-1.0.0-standalone.jar",
       "path": "mods/echoscreencore-1.0.0-standalone.jar",
+      "sha256": "f6bffe016051bbb1ad97c23665c6390a032a47a094319b234223fbd0f25849e1",
+      "size": 392453,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoscreencore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2129,6 +1068,9 @@
       "assetName": "echosoundcore-1.0.0-standalone.jar",
       "artifactName": "echosoundcore-1.0.0-standalone.jar",
       "path": "mods/echosoundcore-1.0.0-standalone.jar",
+      "sha256": "17d05320e6c2a1350cc1ec056d143e5f69e816ce739834f8dd16ba0546631e8a",
+      "size": 11079841,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echosoundcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2140,6 +1082,9 @@
       "assetName": "echostationcore-0.1.0-standalone.jar",
       "artifactName": "echostationcore-0.1.0-standalone.jar",
       "path": "mods/echostationcore-0.1.0-standalone.jar",
+      "sha256": "79051d67b7996f6f8497ff5d7925c7988ac62417fd4cd12391386268c4823af1",
+      "size": 9170,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echostationcore-0.1.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2151,6 +1096,9 @@
       "assetName": "echostationfall-1.0.0-standalone.jar",
       "artifactName": "echostationfall-1.0.0-standalone.jar",
       "path": "mods/echostationfall-1.0.0-standalone.jar",
+      "sha256": "8ee7d70354eb52ba002b639d0c06df12a7a41eb56192f17272deb8dead6e775b",
+      "size": 3926018,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echostationfall-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2162,6 +1110,9 @@
       "assetName": "echoterminal-1.0.0-standalone.jar",
       "artifactName": "echoterminal-1.0.0-standalone.jar",
       "path": "mods/echoterminal-1.0.0-standalone.jar",
+      "sha256": "d3fccd81a0247b588a04ff9bd44181d4957cbc36b32848f7ec62a736d1567251",
+      "size": 22986185,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoterminal-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2173,6 +1124,9 @@
       "assetName": "echothemecore-1.3.0-standalone.jar",
       "artifactName": "echothemecore-1.3.0-standalone.jar",
       "path": "mods/echothemecore-1.3.0-standalone.jar",
+      "sha256": "de1dfe5e380809dea72dc9794b2f6eff12f9285825f8a5c460d35cff7aebdfe6",
+      "size": 69621167,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echothemecore-1.3.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2184,6 +1138,9 @@
       "assetName": "echotoolcore-0.1.0-standalone.jar",
       "artifactName": "echotoolcore-0.1.0-standalone.jar",
       "path": "mods/echotoolcore-0.1.0-standalone.jar",
+      "sha256": "55c8249566926f27d29d204bcc9b9759cc6a6b7e45457db32ceff5e268db3989",
+      "size": 8982,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echotoolcore-0.1.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2195,6 +1152,9 @@
       "assetName": "echotutorialcore-1.0.0-standalone.jar",
       "artifactName": "echotutorialcore-1.0.0-standalone.jar",
       "path": "mods/echotutorialcore-1.0.0-standalone.jar",
+      "sha256": "e30319203f0d26be27672fe3cf1077325b8ce08826e99d352051cfeec07c06d3",
+      "size": 214981,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echotutorialcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2206,6 +1166,9 @@
       "assetName": "echovalidationcore-1.0.0-standalone.jar",
       "artifactName": "echovalidationcore-1.0.0-standalone.jar",
       "path": "mods/echovalidationcore-1.0.0-standalone.jar",
+      "sha256": "3752f1c046db9c93b79927af0b0b8b20380e1e28fbd9438a7a0945283fb709b5",
+      "size": 41988,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echovalidationcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2217,6 +1180,9 @@
       "assetName": "echoweathercore-1.0.0-standalone.jar",
       "artifactName": "echoweathercore-1.0.0-standalone.jar",
       "path": "mods/echoweathercore-1.0.0-standalone.jar",
+      "sha256": "37375351318f4340d23b48b85b6f5c8d8c2053c62738787ab6a74b82994c353f",
+      "size": 244558,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoweathercore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2228,6 +1194,9 @@
       "assetName": "echowiki-1.0.0-standalone.jar",
       "artifactName": "echowiki-1.0.0-standalone.jar",
       "path": "mods/echowiki-1.0.0-standalone.jar",
+      "sha256": "0b0ae39ec211455e5160b8e2609756d1af5dc4a0483bf604ab6f00f17fb6fde7",
+      "size": 4712008,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echowiki-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2239,6 +1208,9 @@
       "assetName": "echoworldcore-1.0.0-standalone.jar",
       "artifactName": "echoworldcore-1.0.0-standalone.jar",
       "path": "mods/echoworldcore-1.0.0-standalone.jar",
+      "sha256": "3085dd429bb371b90550e48cbe74a8eed6f2145cbabc5587f3af0415f377fed6",
+      "size": 176866,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoworldcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2250,6 +1222,9 @@
       "assetName": "echoworldstarter-0.1.0-standalone.jar",
       "artifactName": "echoworldstarter-0.1.0-standalone.jar",
       "path": "mods/echoworldstarter-0.1.0-standalone.jar",
+      "sha256": "a48cd5fcd4ea099f5c1868992c780a76fbf99a258e4a0ab0c565476fa2ef8ff9",
+      "size": 10295,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoworldstarter-0.1.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -2261,8 +1236,18 @@
       "assetName": "signalos-1.0.0-standalone.jar",
       "artifactName": "signalos-1.0.0-standalone.jar",
       "path": "mods/signalos-1.0.0-standalone.jar",
+      "sha256": "381e86ab9f03f2b13e473dec2b8a4c9b9742fdc0a184ff1e3465f0b1e8567aea",
+      "size": 1849673,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/signalos-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     }
-  ]
+  ],
+  "runtimeTarget": "echo_runtime_standalone",
+  "id": "ashfall-standalone-edition",
+  "artifactUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/download/v0.1.0-ashfall-standalone-edition/ashfall-standalone-edition-0.1.0.zip",
+  "updatedAt": "2026-06-14T00:30:53.806Z",
+  "generatedBy": "scripts/rebuild-official-modpack-assets",
+  "validation": "approved",
+  "manifestAsset": "ashfall-standalone-edition-experimental-0.1.0.pack.json"
 }
