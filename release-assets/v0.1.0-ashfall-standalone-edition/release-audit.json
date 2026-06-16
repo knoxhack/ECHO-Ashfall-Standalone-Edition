@@ -5,20 +5,20 @@
   "name": "Ashfall Standalone Edition",
   "version": "0.1.0",
   "channel": "experimental",
-  "moduleRelease": "modules-ashfall-runtime-parity-user-fix-20260616",
-  "moduleSourceRevision": "ECHO-Modules aff012aaa427 Ashfall runtime parity hotfix, 2026-06-16",
+  "moduleRelease": "modules-canonical-full-20260616",
+  "moduleSourceRevision": "ECHO-Modules modules-canonical-full-20260616 (9f25b667), 2026-06-16",
   "releaseTag": "v0.1.0-ashfall-standalone-edition",
   "sourceRepo": "knoxhack/ECHO-Ashfall-Standalone-Edition",
   "moduleCount": 46,
   "artifact": {
     "name": "ashfall-standalone-edition-0.1.0.zip",
-    "sha256": "19a5f1f2e25a2882be8b89ed935c6f62178801898bc304120f651de4e91eb9a3",
-    "size": 267971658
+    "sha256": "db56f19ebeb416848f19fc3c4dc8b0f3adeae7caafa63a93c0c920876dbd1827",
+    "size": 267951484
   },
   "manifest": {
     "name": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
-    "sha256": "d86268c5887a98434565c5e83fc7a3b6738ac814ee435d1380944279a5ea5e78",
-    "size": 61370
+    "sha256": "ed6d5d4e6191bcc287ecd0afaa685ecef727efb6c555007ef353035992cc159b",
+    "size": 59789
   },
-  "generatedAt": "2026-06-16T07:34:47.423Z"
+  "generatedAt": "2026-06-16T15:37:02.433Z"
 }
