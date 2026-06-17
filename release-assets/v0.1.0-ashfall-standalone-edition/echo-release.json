@@ -4,15 +4,15 @@
   "name": "Ashfall Standalone Edition",
   "version": "0.1.0",
   "channel": "experimental",
-  "releasedAt": "2026-06-17T09:29:51.674Z",
+  "releasedAt": "2026-06-17T21:36:05.605Z",
   "manifestAsset": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
-  "manifestSha256": "50719305c43eaf5d57abfe80f2d4b884c27eb992c081e34ec9e2a16bb77ae7ee",
-  "manifestSize": 59820,
+  "manifestSha256": "f0744b8e8464a59eff8f205fca995d57606c3a45fb77dc741cb554f5fe6c3422",
+  "manifestSize": 59898,
   "artifactMode": "zip",
   "artifactAsset": "ashfall-standalone-edition-0.1.0.zip",
-  "artifactSha256": "a50346543aa710e45a5b3c248edaad1f9c454dc09aa25dfdcd155c8a1b03be7d",
-  "artifactSize": 267961803,
-  "moduleRelease": "modules-ashfall-renderer-hotfix-20260617",
+  "artifactSha256": "a8d3e3b07400c7398954bfa304adccf0fa14b986d22c6c78f4555533434d2ea4",
+  "artifactSize": 267965586,
+  "moduleRelease": "modules-mixed-canonical-and-ashfall-hotfixes-20260617",
   "packs": [
     {
       "pack": "ashfall-standalone-edition",
@@ -27,14 +27,14 @@
     {
       "name": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "50719305c43eaf5d57abfe80f2d4b884c27eb992c081e34ec9e2a16bb77ae7ee",
-      "size": 59820
+      "sha256": "f0744b8e8464a59eff8f205fca995d57606c3a45fb77dc741cb554f5fe6c3422",
+      "size": 59898
     },
     {
       "name": "ashfall-standalone-edition-0.1.0.zip",
       "role": "pack-artifact",
-      "sha256": "a50346543aa710e45a5b3c248edaad1f9c454dc09aa25dfdcd155c8a1b03be7d",
-      "size": 267961803
+      "sha256": "a8d3e3b07400c7398954bfa304adccf0fa14b986d22c6c78f4555533434d2ea4",
+      "size": 267965586
     },
     {
       "name": "echoadaptercore-1.0.0-standalone.jar",
@@ -61,8 +61,8 @@
       "name": "echoashfallprotocol-1.0.0-standalone.jar",
       "role": "pack-file",
       "path": "mods/echoashfallprotocol-1.0.0-standalone.jar",
-      "sha256": "473d1c28b5e5928a6718f986e66712a38d1ecd90c4962577ea1d1a75cdf7316f",
-      "size": 59413044
+      "sha256": "8b8b4cf58b9afd0bba7b40340b3855e1451a12a05277ef586977a99fc57fb6e5",
+      "size": 59417477
     },
     {
       "name": "echoblackboxprotocol-1.0.0-standalone.jar",
@@ -363,5 +363,5 @@
     "Ashfall Standalone Edition refreshed against the current Release Index module catalog.",
     "Pack module files, sidecar metadata, and archive checksums are pinned to current GitHub module artifacts."
   ],
-  "moduleSourceRevision": "ECHO-Modules@ea649f2ec27d4fd91f5aff08fa08d0231f9f0105"
+  "moduleSourceRevision": "ECHO-Release-Index modules/*.json with ECHO-Modules@d499d0a554e741d58e74183a23a7e360f22721db"
 }
