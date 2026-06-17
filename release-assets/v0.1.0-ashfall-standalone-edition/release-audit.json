@@ -5,20 +5,20 @@
   "name": "Ashfall Standalone Edition",
   "version": "0.1.0",
   "channel": "experimental",
-  "moduleRelease": "modules-canonical-full-20260616",
-  "moduleSourceRevision": "ECHO-Modules modules-canonical-full-20260616 (9f25b667), 2026-06-16",
+  "moduleRelease": "modules-ashfall-renderer-hotfix-20260617",
+  "moduleSourceRevision": "ECHO-Modules@ea649f2ec27d4fd91f5aff08fa08d0231f9f0105",
   "releaseTag": "v0.1.0-ashfall-standalone-edition",
   "sourceRepo": "knoxhack/ECHO-Ashfall-Standalone-Edition",
   "moduleCount": 46,
   "artifact": {
     "name": "ashfall-standalone-edition-0.1.0.zip",
-    "sha256": "db56f19ebeb416848f19fc3c4dc8b0f3adeae7caafa63a93c0c920876dbd1827",
-    "size": 267951484
+    "sha256": "a50346543aa710e45a5b3c248edaad1f9c454dc09aa25dfdcd155c8a1b03be7d",
+    "size": 267961803
   },
   "manifest": {
     "name": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
-    "sha256": "ed6d5d4e6191bcc287ecd0afaa685ecef727efb6c555007ef353035992cc159b",
-    "size": 59789
+    "sha256": "50719305c43eaf5d57abfe80f2d4b884c27eb992c081e34ec9e2a16bb77ae7ee",
+    "size": 59820
   },
-  "generatedAt": "2026-06-16T15:37:02.433Z"
+  "generatedAt": "2026-06-17T09:29:51.672Z"
 }

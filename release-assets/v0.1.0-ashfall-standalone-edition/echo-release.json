@@ -4,15 +4,15 @@
   "name": "Ashfall Standalone Edition",
   "version": "0.1.0",
   "channel": "experimental",
-  "releasedAt": "2026-06-16T15:37:02.434Z",
+  "releasedAt": "2026-06-17T09:29:51.674Z",
   "manifestAsset": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
-  "manifestSha256": "ed6d5d4e6191bcc287ecd0afaa685ecef727efb6c555007ef353035992cc159b",
-  "manifestSize": 59789,
+  "manifestSha256": "50719305c43eaf5d57abfe80f2d4b884c27eb992c081e34ec9e2a16bb77ae7ee",
+  "manifestSize": 59820,
   "artifactMode": "zip",
   "artifactAsset": "ashfall-standalone-edition-0.1.0.zip",
-  "artifactSha256": "db56f19ebeb416848f19fc3c4dc8b0f3adeae7caafa63a93c0c920876dbd1827",
-  "artifactSize": 267951484,
-  "moduleRelease": "modules-canonical-full-20260616",
+  "artifactSha256": "a50346543aa710e45a5b3c248edaad1f9c454dc09aa25dfdcd155c8a1b03be7d",
+  "artifactSize": 267961803,
+  "moduleRelease": "modules-ashfall-renderer-hotfix-20260617",
   "packs": [
     {
       "pack": "ashfall-standalone-edition",
@@ -27,21 +27,21 @@
     {
       "name": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "ed6d5d4e6191bcc287ecd0afaa685ecef727efb6c555007ef353035992cc159b",
-      "size": 59789
+      "sha256": "50719305c43eaf5d57abfe80f2d4b884c27eb992c081e34ec9e2a16bb77ae7ee",
+      "size": 59820
     },
     {
       "name": "ashfall-standalone-edition-0.1.0.zip",
       "role": "pack-artifact",
-      "sha256": "db56f19ebeb416848f19fc3c4dc8b0f3adeae7caafa63a93c0c920876dbd1827",
-      "size": 267951484
+      "sha256": "a50346543aa710e45a5b3c248edaad1f9c454dc09aa25dfdcd155c8a1b03be7d",
+      "size": 267961803
     },
     {
       "name": "echoadaptercore-1.0.0-standalone.jar",
       "role": "pack-file",
       "path": "mods/echoadaptercore-1.0.0-standalone.jar",
-      "sha256": "851fcebce74d964c3502f65d42518f60b162c9985ecaaa9ee4c6560fe5765563",
-      "size": 970544
+      "sha256": "293745223f9950f4a709fdf77dbe0fdbca146623b6c5612a871841d8ae055da3",
+      "size": 970940
     },
     {
       "name": "echoagriculturereclamation-1.0.0-standalone.jar",
@@ -61,8 +61,8 @@
       "name": "echoashfallprotocol-1.0.0-standalone.jar",
       "role": "pack-file",
       "path": "mods/echoashfallprotocol-1.0.0-standalone.jar",
-      "sha256": "467508f6252bb0007b8e7353077d94830dd89257a5908cf12c5fbccba1c887ce",
-      "size": 59402670
+      "sha256": "473d1c28b5e5928a6718f986e66712a38d1ecd90c4962577ea1d1a75cdf7316f",
+      "size": 59413044
     },
     {
       "name": "echoblackboxprotocol-1.0.0-standalone.jar",
@@ -363,5 +363,5 @@
     "Ashfall Standalone Edition refreshed against the current Release Index module catalog.",
     "Pack module files, sidecar metadata, and archive checksums are pinned to current GitHub module artifacts."
   ],
-  "moduleSourceRevision": "ECHO-Modules modules-canonical-full-20260616 (9f25b667), 2026-06-16"
+  "moduleSourceRevision": "ECHO-Modules@ea649f2ec27d4fd91f5aff08fa08d0231f9f0105"
 }

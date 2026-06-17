@@ -88,9 +88,9 @@
       "path": "mods/echoadaptercore-1.0.0-standalone.jar",
       "required": true,
       "side": "both",
-      "sha256": "851fcebce74d964c3502f65d42518f60b162c9985ecaaa9ee4c6560fe5765563",
-      "size": 970544,
-      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-canonical-full-20260616/echoadaptercore-1.0.0-standalone.jar"
+      "sha256": "293745223f9950f4a709fdf77dbe0fdbca146623b6c5612a871841d8ae055da3",
+      "size": 970940,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-ashfall-renderer-hotfix-20260617/echoadaptercore-1.0.0-standalone.jar"
     },
     {
       "id": "echoagriculturereclamation",
@@ -130,9 +130,9 @@
       "path": "mods/echoashfallprotocol-1.0.0-standalone.jar",
       "required": true,
       "side": "both",
-      "sha256": "467508f6252bb0007b8e7353077d94830dd89257a5908cf12c5fbccba1c887ce",
-      "size": 59402670,
-      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-canonical-full-20260616/echoashfallprotocol-1.0.0-standalone.jar"
+      "sha256": "473d1c28b5e5928a6718f986e66712a38d1ecd90c4962577ea1d1a75cdf7316f",
+      "size": 59413044,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-ashfall-renderer-hotfix-20260617/echoashfallprotocol-1.0.0-standalone.jar"
     },
     {
       "id": "echoblackboxprotocol",
@@ -742,9 +742,9 @@
       "path": "mods/echoadaptercore-1.0.0-standalone.jar",
       "required": true,
       "side": "both",
-      "sha256": "851fcebce74d964c3502f65d42518f60b162c9985ecaaa9ee4c6560fe5765563",
-      "size": 970544,
-      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-canonical-full-20260616/echoadaptercore-1.0.0-standalone.jar"
+      "sha256": "293745223f9950f4a709fdf77dbe0fdbca146623b6c5612a871841d8ae055da3",
+      "size": 970940,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-ashfall-renderer-hotfix-20260617/echoadaptercore-1.0.0-standalone.jar"
     },
     {
       "id": "echoagriculturereclamation",
@@ -784,9 +784,9 @@
       "path": "mods/echoashfallprotocol-1.0.0-standalone.jar",
       "required": true,
       "side": "both",
-      "sha256": "467508f6252bb0007b8e7353077d94830dd89257a5908cf12c5fbccba1c887ce",
-      "size": 59402670,
-      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-canonical-full-20260616/echoashfallprotocol-1.0.0-standalone.jar"
+      "sha256": "473d1c28b5e5928a6718f986e66712a38d1ecd90c4962577ea1d1a75cdf7316f",
+      "size": 59413044,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-ashfall-renderer-hotfix-20260617/echoashfallprotocol-1.0.0-standalone.jar"
     },
     {
       "id": "echoblackboxprotocol",
@@ -1380,12 +1380,12 @@
   "runtimeTarget": "echo_runtime_standalone",
   "id": "ashfall-standalone-edition",
   "artifactUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/download/v0.1.0-ashfall-standalone-edition/ashfall-standalone-edition-0.1.0.zip",
-  "updatedAt": "2026-06-16T15:36:24.806Z",
+  "updatedAt": "2026-06-17T09:29:42.032Z",
   "generatedBy": "scripts/rebuild-official-modpack-assets",
   "validation": "warning",
   "manifestAsset": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
-  "moduleRelease": "modules-canonical-full-20260616",
-  "moduleSourceRevision": "ECHO-Modules modules-canonical-full-20260616 (9f25b667), 2026-06-16",
-  "artifactSha256": "db56f19ebeb416848f19fc3c4dc8b0f3adeae7caafa63a93c0c920876dbd1827",
-  "artifactSize": 267951484
+  "moduleRelease": "modules-ashfall-renderer-hotfix-20260617",
+  "moduleSourceRevision": "ECHO-Modules@ea649f2ec27d4fd91f5aff08fa08d0231f9f0105",
+  "artifactSha256": "a50346543aa710e45a5b3c248edaad1f9c454dc09aa25dfdcd155c8a1b03be7d",
+  "artifactSize": 267961803
 }
