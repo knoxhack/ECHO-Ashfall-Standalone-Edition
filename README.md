@@ -30,14 +30,11 @@ Standalone runtime pack manifests, pack archives, runtime shell assets, and per-
 
 ## Release Assets
 
-The current experimental prerelease payload is tracked under `release-assets/v0.1.0-ashfall-standalone-edition/`.
+- GitHub prerelease tag: `v0.1.1-ashfall-standalone-edition-beta`
+- Checked-in payloads: `release-assets/v0.1.1-ashfall-standalone-edition-beta/`
+- Uploaded assets: `ashfall-standalone-edition-0.1.1.zip`, `ashfall-standalone-edition-beta-0.1.1.pack.json`, `checksums.txt`, `echo-release.json`, `release-audit.json`
 
-- `ashfall-standalone-edition-0.1.0.zip` is stored with Git LFS.
-- `ashfall-standalone-edition-experimental-0.1.0.pack.json`, `echo-release.json`, and `checksums.txt` are checked in beside it.
-- `release-audit.json` records the downloaded GitHub release asset hashes.
-
-Current `v0.1.0-ashfall-standalone-edition` assets are warning-gated in the Release Index because the published `.pack.json` snapshot does not declare `moduleRequirements`. Rebuild the pack manifest from `release-manifest.template.json` and upload a fresh checksum-backed asset set before requesting launcher approval.
-
+These files mirror the live GitHub prerelease assets and the Release Index beta catalog.
 ## Docs Index
 
 - [docs/install.md](docs/install.md)

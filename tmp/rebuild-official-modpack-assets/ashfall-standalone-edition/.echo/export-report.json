@@ -3,13 +3,13 @@
   "status": "rebuilt",
   "pack": "ashfall-standalone-edition",
   "name": "Ashfall Standalone Edition",
-  "channel": "experimental",
-  "version": "0.1.0",
+  "channel": "beta",
+  "version": "0.1.1",
   "runtimeTarget": "echo_runtime_standalone",
   "moduleArtifactFamily": "standalone",
-  "moduleRelease": "modules-ashfall-content-entrypoint-hotfix-20260619",
+  "moduleRelease": "modules-beta-full-20260620",
   "moduleCount": 46,
-  "generatedAt": "2026-06-19T11:48:34.692Z",
+  "generatedAt": "2026-06-20T04:41:23.232Z",
   "sourceRepo": "knoxhack/ECHO-Ashfall-Standalone-Edition",
-  "releaseTag": "v0.1.0-ashfall-standalone-edition"
+  "releaseTag": "v0.1.1-ashfall-standalone-edition-beta"
 }
