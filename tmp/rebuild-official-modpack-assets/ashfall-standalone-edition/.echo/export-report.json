@@ -4,12 +4,12 @@
   "pack": "ashfall-standalone-edition",
   "name": "Ashfall Standalone Edition",
   "channel": "beta",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "runtimeTarget": "echo_runtime_standalone",
   "moduleArtifactFamily": "standalone",
   "moduleRelease": "modules-beta-full-20260620",
   "moduleCount": 46,
-  "generatedAt": "2026-06-20T04:41:23.232Z",
+  "generatedAt": "2026-06-20T00:00:00.000Z",
   "sourceRepo": "knoxhack/ECHO-Ashfall-Standalone-Edition",
-  "releaseTag": "v0.1.1-ashfall-standalone-edition-beta"
+  "releaseTag": "v0.1.2-ashfall-standalone-edition-beta"
 }

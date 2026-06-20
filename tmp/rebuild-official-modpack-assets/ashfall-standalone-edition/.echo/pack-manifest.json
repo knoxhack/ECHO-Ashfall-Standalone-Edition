@@ -1,32 +1,28 @@
 {
   "pack": "ashfall-standalone-edition",
   "name": "Ashfall Standalone Edition",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "channel": "beta",
   "minecraft": "Standalone",
   "artifactMode": "zip",
-  "artifactName": "ashfall-standalone-edition-0.1.1.zip",
+  "artifactName": "ashfall-standalone-edition-0.1.2.zip",
   "loader": "echo-standalone-runtime",
   "runtime": {
     "requiredJava": "25+"
   },
   "launch": {
-    "mainClass": "net.neoforged.fml.startup.Client",
+    "mainClass": "dev.echo.standalone.runtime.client.EchoClientMain",
     "gameArgs": [
-      "--fml.neoForgeVersion",
-      "26.1.2.43-beta",
-      "--fml.mcVersion",
-      "26.1.2",
-      "--fml.neoFormVersion",
-      "1"
+      "--pack-root",
+      "${game_directory}",
+      "--modules-root",
+      "${game_directory}/mods"
     ],
     "jvmArgs": [
-      "-Djava.net.preferIPv6Addresses=system",
-      "-DlibraryDirectory=${library_directory}",
-      "--add-opens",
-      "java.base/java.lang.invoke=ALL-UNNAMED",
-      "--add-exports",
-      "jdk.naming.dns/com.sun.jndi.dns=java.naming"
+      "--enable-native-access=ALL-UNNAMED",
+      "-Dfile.encoding=UTF-8",
+      "-Decho.pack.root=${game_directory}",
+      "-Decho.modules.root=${game_directory}/mods"
     ]
   },
   "modules": [
@@ -1379,14 +1375,14 @@
   ],
   "runtimeTarget": "echo_runtime_standalone",
   "id": "ashfall-standalone-edition",
-  "artifactUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/download/v0.1.1-ashfall-standalone-edition-beta/ashfall-standalone-edition-0.1.1.zip",
-  "updatedAt": "2026-06-20T04:41:23.230Z",
+  "artifactUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/download/v0.1.2-ashfall-standalone-edition-beta/ashfall-standalone-edition-0.1.2.zip",
+  "updatedAt": "2026-06-20T00:00:00.000Z",
   "generatedBy": "scripts/rebuild-official-modpack-assets",
   "validation": "warning",
-  "manifestAsset": "ashfall-standalone-edition-beta-0.1.1.pack.json",
+  "manifestAsset": "ashfall-standalone-edition-beta-0.1.2.pack.json",
   "moduleRelease": "modules-beta-full-20260620",
   "moduleSourceRevision": "ECHO-Modules modules-beta-full-20260620 (2a1c2ec8), 2026-06-20",
-  "releaseTag": "v0.1.1-ashfall-standalone-edition-beta",
+  "releaseTag": "v0.1.2-ashfall-standalone-edition-beta",
   "moduleReleaseId": "modules-beta-full-20260620",
-  "releaseUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/tag/v0.1.1-ashfall-standalone-edition-beta"
+  "releaseUrl": "https://github.com/knoxhack/ECHO-Ashfall-Standalone-Edition/releases/tag/v0.1.2-ashfall-standalone-edition-beta"
 }
