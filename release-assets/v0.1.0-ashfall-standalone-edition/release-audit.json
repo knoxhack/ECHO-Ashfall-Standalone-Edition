@@ -5,20 +5,20 @@
   "name": "Ashfall Standalone Edition",
   "version": "0.1.0",
   "channel": "experimental",
-  "moduleRelease": "modules-mixed-canonical-and-ashfall-hotfixes-20260617",
-  "moduleSourceRevision": "ECHO-Release-Index modules/*.json with ECHO-Modules@d499d0a554e741d58e74183a23a7e360f22721db",
+  "moduleRelease": "modules-ashfall-content-entrypoint-hotfix-20260619",
+  "moduleSourceRevision": "ECHO-Modules local Ashfall content entrypoint rebuild 2026-06-19; restores NeoForge @Mod bytecode for Agriculture Reclamation, WeatherCore, Convoy Protocol, and Stationfall while preserving standalone-neutral artifacts",
   "releaseTag": "v0.1.0-ashfall-standalone-edition",
   "sourceRepo": "knoxhack/ECHO-Ashfall-Standalone-Edition",
   "moduleCount": 46,
   "artifact": {
     "name": "ashfall-standalone-edition-0.1.0.zip",
-    "sha256": "a8d3e3b07400c7398954bfa304adccf0fa14b986d22c6c78f4555533434d2ea4",
-    "size": 267965586
+    "sha256": "5fbeac901ddab30fc15f0849b0d6560d7b60322defd3fb0da768dc29f771c9c2",
+    "size": 269463789
   },
   "manifest": {
     "name": "ashfall-standalone-edition-experimental-0.1.0.pack.json",
-    "sha256": "f0744b8e8464a59eff8f205fca995d57606c3a45fb77dc741cb554f5fe6c3422",
-    "size": 59898
+    "sha256": "7a91a3261b48e59641204d654662caf9ad6f2306ed32de59246660c7bb5c9dad",
+    "size": 60227
   },
-  "generatedAt": "2026-06-17T21:36:05.603Z"
+  "generatedAt": "2026-06-19T11:48:43.250Z"
 }

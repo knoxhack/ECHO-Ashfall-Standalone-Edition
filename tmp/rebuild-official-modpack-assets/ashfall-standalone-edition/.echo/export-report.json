@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "echo.official_modpack.export_report.v1",
+  "status": "rebuilt",
+  "pack": "ashfall-standalone-edition",
+  "name": "Ashfall Standalone Edition",
+  "channel": "experimental",
+  "version": "0.1.0",
+  "runtimeTarget": "echo_runtime_standalone",
+  "moduleArtifactFamily": "standalone",
+  "moduleRelease": "modules-ashfall-content-entrypoint-hotfix-20260619",
+  "moduleCount": 46,
+  "generatedAt": "2026-06-19T11:48:34.692Z",
+  "sourceRepo": "knoxhack/ECHO-Ashfall-Standalone-Edition",
+  "releaseTag": "v0.1.0-ashfall-standalone-edition"
+}
