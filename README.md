@@ -30,8 +30,8 @@ Standalone runtime pack manifests, pack archives, runtime shell assets, and per-
 
 ## Release Assets
 
-- GitHub prerelease tag: `v0.1.2-ashfall-standalone-edition-beta`
-- Checked-in payloads: `release-assets/v0.1.2-ashfall-standalone-edition-beta/`
+- GitHub prerelease tag: `v0.1.2-ashfall-standalone-edition-beta.3`
+- Checked-in payloads: `release-assets/v0.1.2-ashfall-standalone-edition-beta.3/`
 - Uploaded assets: `ashfall-standalone-edition-0.1.2.zip`, `ashfall-standalone-edition-beta-0.1.2.pack.json`, `checksums.txt`, `echo-release.json`, `release-audit.json`
 
 These files mirror the live GitHub prerelease assets and the Release Index beta catalog.
