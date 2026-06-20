@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "echo.official_modpack.release_audit.v1",
+  "status": "rebuilt-from-current-module-catalog",
+  "pack": "ashfall-standalone-edition",
+  "name": "Ashfall Standalone Edition",
+  "version": "0.1.2",
+  "channel": "beta",
+  "moduleRelease": "modules-beta-full-20260620",
+  "moduleSourceRevision": "ECHO-Modules afd206900713 release modules-beta-full-20260620, 2026-06-20",
+  "releaseTag": "v0.1.2-ashfall-standalone-edition-beta.4",
+  "sourceRepo": "knoxhack/ECHO-Ashfall-Standalone-Edition",
+  "moduleCount": 46,
+  "artifact": {
+    "name": "ashfall-standalone-edition-0.1.2.zip",
+    "sha256": "f88bb75e999dbf05f70b2a4522964be37d23e308ea9881038804b0559a713265",
+    "size": 269568738
+  },
+  "manifest": {
+    "name": "ashfall-standalone-edition-beta-0.1.2.pack.json",
+    "sha256": "b92f913fb0d98edcb0c3e71f557318f32d3086ba848f81ad310ae9f1bc76839a",
+    "size": 59601
+  },
+  "generatedAt": "2026-06-20T23:08:08.887Z"
+}
